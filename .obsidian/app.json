@@ -1,7 +1,8 @@
 {
-  "useMarkdownLinks": true,
+  "useMarkdownLinks": false,
   "openBehavior": "file:assets",
   "attachmentFolderPath": "assets",
   "alwaysUpdateLinks": true,
-  "newLinkFormat": "relative"
+  "newLinkFormat": "relative",
+  "promptDelete": false
 }
