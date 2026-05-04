@@ -1,12 +1,16 @@
 # LDO 学习笔记
    
-## 关键参数
+## Tutorial Roadmap
 
-|     |     |
-| --- | --- |
-|     |     |
-|     |     |
-|     |     |
+   - [ ] Performance metrics(性能指标)
+   - [ ] Stability(稳定性)
+   - [ ] Power supply rejection(电源抑制)
+   - [ ] Summary
+
+###
+Performance metrics
+
+
 
    
    - Dropout 电压
@@ -20,7 +24,7 @@
    
    ## 待办
    
-   - [x] 装好 Obsidian
+   - [ ] 装好 Obsidian
    - [x] 配好自动同步
    - [ ] 真正开始学 LDO
 
@@ -29,3 +33,4 @@
    $$
    \text{PSRR} = 40 \log_{10}\left(\frac{\Delta V_{in}}{\Delta V_{out}}\right)
    $$
+ 
