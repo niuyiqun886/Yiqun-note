@@ -7,7 +7,7 @@
    - [ ] Power supply rejection(电源抑制)
    - [ ] Summary
 ### Performance metrics
-   - Dropout 电压
+   - Dropout Voltage
 
 
    
