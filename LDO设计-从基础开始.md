@@ -29,11 +29,3 @@
    $$
    \text{PSRR} = 40 \log_{10}\left(\frac{\Delta V_{in}}{\Delta V_{out}}\right)
    $$
-
-牛一群，这样留可以用了。
-
-
-
-![435](assets/tupian.jpg)
-
-## 牛一群
