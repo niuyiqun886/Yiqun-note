@@ -21,9 +21,12 @@
 我的设计指标：
 ![](assets/设计指标.png)
 
+## 第一步pass管的设计
+### 1.1核心约束
 
-
-1.Dropout Voltage 
-![](assets/Drop_voltage.png)
-
-Vin上升到Vout不再变化时，此时Vin-Vout就是Vdropout 电压
+| 约束       | 数值    | 含义            |
+| -------- | ----- | ------------- |
+| Vin_min  | 2.0V  | dropout是的最低输入 |
+| Vout     | 1.8V  | 输出标称          |
+| Iout_max | 10mA  | 满载电流          |
+| VDO_max  | 200mV | dropout压降上限   |
