@@ -16,3 +16,9 @@
    - Load Transcient Response
    - Power Supply Rejection
    - Accuracy
+
+
+1.Dropout Voltage 
+![](assets/Drop_voltage.png)
+
+Vin上升到Vout不再变化时，此时Vin-Vout就是Vdropout 电压
