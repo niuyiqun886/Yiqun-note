@@ -18,6 +18,11 @@
    - Accuracy
 
 
+我的设计指标：
+![](assets/设计指标.png)
+
+
+
 1.Dropout Voltage 
 ![](assets/Drop_voltage.png)
 
