@@ -20,7 +20,11 @@
 
 我的设计指标：（Vin范围最大为3V）
 
-![](设计指标.png)
+![697](设计指标.png)
+
+claude code 算出的μpCox的值
+
+![](assets/claude_code算出的μpCox的值.png)
 
 ## 第一步pass管的设计
 ### 1.1核心约束
@@ -34,12 +38,14 @@
 $$
 \begin{align}
 
-VDD = 2V，V_{g} = 1.07V，V_{d} = 1.8V \\
-V_{sg} = VDD - V_{g} = 2-1.07 = 0.93V \\
-V_{ov} = V_{sg}-|V_{th}| ≈ 210mV
-I_{d} = \frac{1}{2}×μ_{p}\cdot C_{ox}\frac{W}{L}\cdot V_{ov}^{2}
+VDD &= 2V，V_{g} = 1.07V，V_{d} = 1.8V \\
+V_{sg} &= VDD - V_{g} = 2-1.07 = 0.93V \\
+V_{ov} &= V_{sg}-|V_{th}| ≈ 210mV \\
+I_{d} &= \frac{1}{2}×μ_{p}\cdot C_{ox}\frac{W}{L}\cdot V_{ov}^{2} = 0.5 × 60μ × 16800 × （0.21)^{2} ≈ 14.8mA
 \end{align}
 $$
+
+这个计算的结果和仿真的接近。
 
 | 约束       | 数值    | 含义            |
 | -------- | ----- | ------------- |
