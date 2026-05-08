@@ -25,7 +25,7 @@
 ## 第一步pass管的设计
 ### 1.1核心约束
 
-先对PMOS：提取μpCox
+先对PMOS
 
 ![|187|237x286](assets/μpCox.png)
 
