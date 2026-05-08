@@ -24,7 +24,7 @@
 
 claude code 算出的μpCox的值
 
-![](assets/claude_code算出的μpCox的值.png)
+![653](assets/claude_code算出的μpCox的值.png)
 
 ## 第一步pass管的设计
 ### 1.1核心约束
