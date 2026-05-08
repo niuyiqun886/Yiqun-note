@@ -32,9 +32,13 @@
 仿真结果：
 
 $$
-VDD = 2V，V_{g} = 1.07V \\
+\begin{align}
 
-
+VDD = 2V，V_{g} = 1.07V，V_{d} = 1.8V \\
+V_{sg} = VDD - V_{g} = 2-1.07 = 0.93V \\
+V_{ov} = V_{sg}-|V_{th}| ≈ 210mV
+I_{d} = \frac{1}{2}×μ_{p}\cdot C_{ox}\frac{W}{L}\cdot V_{ov}^{2}
+\end{align}
 $$
 
 | 约束       | 数值    | 含义            |
