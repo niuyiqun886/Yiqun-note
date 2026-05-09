@@ -94,3 +94,4 @@ $$
 \frac{W}{L} = \frac{2I_{d}}{μ_{p}\cdot C_{ox}\cdot V_{ox}^{}2} = \frac{2×10mA}{60μ×(0.234)^{2}} = 6080
 $$
 
+这里的**Vsd = 234mV**叫做**"saturation headroom"（饱和余量）**——PMOS要保持在饱和区所需的Vsd下限。
