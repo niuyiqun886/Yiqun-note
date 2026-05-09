@@ -45,13 +45,13 @@ claude code 算出的μpCox的值
 仿真结果：
 
 $$
-\begin{align}
+\begin{gather}
 
-VDD &= 2V，V_{g} = 1.07V，V_{d} = 1.8V，μ_{p}\cdot C_{ox} = 60μA/V^{2} \\
-V_{sg} &= VDD - V_{g} = 2-1.07 = 0.93V \\
-V_{ov} &= V_{sg}-|V_{th}| ≈ 210mV \\
-I_{d} &= \frac{1}{2}×μ_{p}\cdot C_{ox}\frac{W}{L}\cdot V_{ov}^{2} = 0.5 × 60μ × 16800 × （0.21)^{2} ≈ 14.8mA
-\end{align}
+VDD = 2V，V_{g} = 1.07V，V_{d} = 1.8V，μ_{p}\cdot C_{ox} = 60μA/V^{2} \\
+V_{sg} = VDD - V_{g} = 2-1.07 = 0.93V \\
+V_{ov} = V_{sg}-|V_{th}| ≈ 210mV \\
+I_{d} = \frac{1}{2}×μ_{p}\cdot C_{ox}\frac{W}{L}\cdot V_{ov}^{2} = 0.5 × 60μ × 16800 × （0.21)^{2} ≈ 14.8mA
+\end{gather}
 $$
 
 这个计算的结果和仿真的接近。最终去W/L= 120×50u/0.5u，电流大小为10.2559mA。
@@ -60,10 +60,19 @@ $$
 #### 测试1：VDO-Iload全扫描
 仿真设置“
 
+
 $$
-\begin{align}
+\begin{gather}
 DC\ sweep :V_{in}→from\ 3V\ to\ 1.5V \\
 Parametric\ sweep:\ Iload = 0.1mA,\ 1mA,\ 5mA,\ 10mA,\ 12mA \\
 可以将V_{g}设置为：\ V_{g} = V_{in} - 0.93V,\ 即跟随V_{in}保持恒定
-\end{align}
+\end{gather}
 $$
+
+仿真电路：
+
+![365](assets/测试1.png)
+
+仿真结果：
+
+![697](assets/测试1仿真结果.png)
