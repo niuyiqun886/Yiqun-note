@@ -63,6 +63,7 @@ $$
 $$
 \begin{align}
 DC\ sweep :V_{in}→from\ 3V\ to\ 1.5V \\
-Parametric\ sweep
+Parametric\ sweep:\ Iload = 0.1mA,\ 1mA,\ 5mA,\ 10mA,\ 12mA \\
+V_{g}
 \end{align}
 $$
