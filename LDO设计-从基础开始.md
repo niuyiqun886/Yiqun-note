@@ -62,6 +62,7 @@ $$
 
 $$
 \begin{align}
-DC_{sweep} :V_{in}→from
+DC\ sweep :V_{in}→from\ 3V\ to\ 1.5V \\
+Parametric\ sweep
 \end{align}
 $$
