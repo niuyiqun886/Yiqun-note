@@ -94,4 +94,12 @@ $$
 \frac{W}{L} = \frac{2I_{d}}{μ_{p}\cdot C_{ox}\cdot V_{ox}^{}2} = \frac{2×10mA}{60μ×(0.234)^{2}} = 6080
 $$
 
-这里的**Vsd = 234mV**叫做**"saturation headroom"（饱和余量）**——PMOS要保持在饱和区所需的Vsd下限。
+这里的**Vsd = 234mV**叫做=="saturation headroom"（饱和余量）==PMOS要保持在饱和区所需的Vsd下限。
+
+**为什么这个数字也很重要**：
+
+- 在saturation里，pass管的小信号参数（gm, rds）行为良好，环路特性可控
+- 一旦进入triode，gm会随Vds变化，rds急剧下降（变成Ron），**整个环路动态特性会改变**
+- LDO设计中通常希望**正常调节状态**下PMOS在饱和区，dropout只是边界条件
+
+所以这个234mV告诉你：**只要 Vin > 2.034V，pass管就稳稳在饱和区**。这是一个**对环路设计有意义的spec**
