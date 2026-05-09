@@ -64,6 +64,6 @@ $$
 \begin{align}
 DC\ sweep :V_{in}→from\ 3V\ to\ 1.5V \\
 Parametric\ sweep:\ Iload = 0.1mA,\ 1mA,\ 5mA,\ 10mA,\ 12mA \\
-可以将V_{g}设置为：\ V_{g} = V_{in} - 0.93V,\ 
+可以将V_{g}设置为：\ V_{g} = V_{in} - 0.93V,\ 即跟随V_{in}保持恒定
 \end{align}
 $$
