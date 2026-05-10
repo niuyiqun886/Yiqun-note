@@ -187,3 +187,15 @@ $$
 
 ## 第二步误差放大器设计
 
+
+![](assets/LDO输出与环路增益关系.png)
+
+10mA处PMOS的rds=1.76kΩ，故可以求EA的增益。
+Load Regulation spec：5mV/10mA → Rout_closed < 0.5Ω
+
+$$
+\begin{gather}
+
+\end{gather}
+$$
+
