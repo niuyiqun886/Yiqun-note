@@ -73,4 +73,3 @@ g_{m,cp}(V_{in}-V_{x})\cdot r_{o1}\cdot g_{mo} = SC_{m}(V_{x}-V_{o})-\frac{V_{o}
 \end{gather}
 $$
 
-问题1.求零点的的时候上面的
