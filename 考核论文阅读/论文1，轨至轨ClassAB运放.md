@@ -40,3 +40,4 @@ $$
 R_{out} = \frac{1}{g_{mcp}+g_{m,cp}\cdot R_{x}\cdot g_{m,o}}
 $$
 
+Class AB类的输出极点都不是主极点，那么相比于普通的Class AB输出，这个在高频的时候输出极点的频率会更高，补偿起来应该更容易。
