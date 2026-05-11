@@ -61,7 +61,7 @@ $$
 
 ==但是现在有个问题，就是Mo的栅极的极点是否会被密勒补偿补偿掉。==(后面要看下)
 
-![292](./assets/7374171cdd9f2eecf5a104d7cf68a0b4.jpg)
+![320](./assets/dfba3b5f112cdd27413090b275e71330.jpg)
 $$
 \begin{gather}
 g_{m,cp}(V_{in}-V_{x}) = \frac{V_{x}}{r_{o2}}+SC_{m}(V_{x}-V_{o})\\
