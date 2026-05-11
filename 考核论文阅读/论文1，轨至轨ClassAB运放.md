@@ -57,7 +57,11 @@ V_{i}\cdot SC_{m} = V_{i}\cdot g_{m,cp}\cdot R_{x}\cdot g_{mo} \\
 S = \frac{g_{m,cp}\cdot R_{x}\cdot g_{mo}}{C_{m}}
 \end{gather}
 $$
-可知零点的频率也是较普通的Class AB提高了很多。
+$$
+可知零点的频率也是较普通的Class AB提高了很多。这里有个问题就是，如果I_{i}= g_{m}V_{i}
+$$
+那么在计算的过程中是没有零点的。
+
 
 ==但是现在有个问题，就是Mo的栅极的极点是否会被密勒补偿补偿掉。==(后面要看下)
 
