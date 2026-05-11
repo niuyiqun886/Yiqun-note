@@ -65,6 +65,6 @@ $$
 $$
 \begin{gather}
 g_{m,cp}(V_{in}-V_{x}) = \frac{V_{x}}{r_{o2}}+SC_{m}(V_{x}-V_{o})\\
-
+g_{m,cp}(V_{in}-V_{x})\cdot r_{o1}\cdot g_{mo} = SC_{m}(V_{x}-V_{o})-\frac{V_{o}}{r_{o3}}
 \end{gather}
 $$
