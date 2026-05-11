@@ -73,3 +73,5 @@ g_{m,cp}(V_{in}-V_{x})\cdot r_{o1}\cdot g_{mo} = SC_{m}(V_{x}-V_{o})-\frac{V_{o}
 \end{gather}
 $$
 
+
+输出级偏置的问题：通过两个电流限制器形成的负反馈控制M19和M20的栅极
