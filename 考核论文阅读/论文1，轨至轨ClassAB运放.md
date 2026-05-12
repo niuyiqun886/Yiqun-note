@@ -106,5 +106,9 @@ $$
 
 
 
+5月12日：
 
+文中提出的HSMC补偿+Current limiter与对比论文的幅值仿真结果：
+条件：Cload = 10p，100p
+![](./assets/00372d87-3f03-498f-9bca-85eb9fc78d80.png)
 
