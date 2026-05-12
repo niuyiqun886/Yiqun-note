@@ -119,15 +119,17 @@ $$
 
 $$
 \begin{gather}
-GBW: \omega \approx \frac{g_{m4}+g_{m2}}{C_{m}}\approx \frac{2g_{m2}}{C_{m}} \\
-Main\ \  pole:\omega \approx -\frac{1}{\frac{1}{2}\cdot g_{m}r_{o}^{2}\cdot C_{m}\cdot \frac{1}{2}g_{m}r_{0}} \\
-High\ Frequency\ pole:\omega\approx -\frac{1}{R_{out}\cdot C_{L}}=-\frac{1}{(g_{mcp}+g_{m,cp}\cdot R_{x}\cdot g_{m,o})\cdot C_{L}} \approx  -\frac{1}{g_{m,cp}\cdot R_{x}\cdot g_{m,o}\cdot C_{L}}\\
-Zero:S = \frac{g_{m,cp}\cdot R_{x}\cdot g_{mo}}{C_{m}}\\
-R_{x} \approx \frac{1}{2}\cdot g_{m}r_{o}^{2}
+GBW: \omega \approx \frac{g_{m4}+g_{m2}}{C_{m}}\approx \frac{2g_{m2}}{C_{m}} --(1)\\
+Main\ \  pole:\omega \approx -\frac{1}{\frac{1}{2}\cdot g_{m}r_{o}^{2}\cdot C_{m}\cdot \frac{1}{2}g_{m}r_{0}} --(2)\\
+High\ Frequency\ pole:\omega\approx -\frac{1}{(g_{mcp}+g_{m,cp}\cdot R_{x}\cdot g_{m,o})\cdot C_{L}} \approx  -\frac{1}{g_{m,cp}\cdot R_{x}\cdot g_{m,o}\cdot C_{L}}--(3)\\
+Zero:S = \frac{g_{m,cp}\cdot R_{x}\cdot g_{mo}}{C_{m}}--(3)\\
+R_{x} \approx \frac{1}{2}\cdot g_{m}r_{o}^{2}--(4)
 
 \end{gather}
 $$
 
-
+分析：
+零点补偿，由公式（1）和（3）可知零点的频率是远大于GBW的所以不需要补偿。
+高频极点：为了维持60度的相位裕度，应该是GBW的1.732倍≈2倍以上，由公式（3）和公式（1）可知
 
 
