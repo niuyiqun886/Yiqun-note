@@ -112,3 +112,18 @@ $$
 条件：Cload = 10p，100p
 ![](./assets/00372d87-3f03-498f-9bca-85eb9fc78d80.png)
 
+由仿真图，以及文中提到：所提出的电流限制器不会降低放大器的直流增益。
+两个Current limiter的仿真结果是DC gain相差了约40dB，大概就是一个MOS管的本征增益，和之前说的功率管的栅极电阻由Cascode结构变为了一个ro基本相同。
+
+图中的单位增益带宽几乎相同：(论文电路的零极点分布)
+
+$$
+\begin{gather}
+GBW: \omega \approx \frac{g_{m4}+g_{m2}}{C_{m}} \\
+Main\ \  pole:\omega \approx \frac{1}{\frac{1}{2}\cdot g_{m}r_{o}^{2}\cdot C_{m}\cdot \frac{1}{2}g_{m}r_{0}} \\
+High\ Frequency\ pole:\omega\approx \frac{1}{R_{out}\cdot C_{L}}=\frac{1}{(g_{mcp}+g_{m,cp}\cdot R_{x}\cdot g_{m,o})\cdot C_{L}} \\
+Zero:S = \frac{g_{m,cp}\cdot R_{x}\cdot g_{mo}}{C_{m}}
+
+\end{gather}
+$$
+
