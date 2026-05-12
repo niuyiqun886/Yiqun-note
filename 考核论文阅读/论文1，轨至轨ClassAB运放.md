@@ -121,7 +121,7 @@ $$
 \begin{gather}
 GBW: \omega \approx \frac{g_{m4}+g_{m2}}{C_{m}} \\
 Main\ \  pole:\omega \approx \frac{1}{\frac{1}{2}\cdot g_{m}r_{o}^{2}\cdot C_{m}\cdot \frac{1}{2}g_{m}r_{0}} \\
-High\ Frequency\ pole:\omega\approx \frac{1}{R_{out}\cdot C_{L}}=\frac{1}{(g_{mcp}+g_{m,cp}\cdot R_{x}\cdot g_{m,o})\cdot C_{L}} \approx  \\
+High\ Frequency\ pole:\omega\approx \frac{1}{R_{out}\cdot C_{L}}=\frac{1}{(g_{mcp}+g_{m,cp}\cdot R_{x}\cdot g_{m,o})\cdot C_{L}} \approx  \frac{1}{g_{m,cp}\cdot R_{x}\cdot g_{m,o}\cdot C_{L}}\\
 Zero:S = \frac{g_{m,cp}\cdot R_{x}\cdot g_{mo}}{C_{m}}
 
 \end{gather}
