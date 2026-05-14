@@ -223,4 +223,4 @@ A_{EA}> \frac{1000}{g_{mp}\cdot r_{ds}\cdot \beta }= \frac{1}{0.0838\times 0.555
 $$
 
 ### 结论:
-**EA的DC增益只要 40~50dB 就完全够用**——这给我们的EA拓扑选择留了很大空间。可以选简单的单级telescopic或folded cascode，不需要两级结构。
+**两个结论去最大的，即33dB，EA的DC增益只要 40~50dB 就完全够用**——这给我们的EA拓扑选择留了很大空间。可以选简单的单级telescopic或folded cascode，不需要两级结构。
