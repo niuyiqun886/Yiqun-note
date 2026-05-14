@@ -191,6 +191,7 @@ $$
 ![](LDO/assets/LDO输出与环路增益关系.png)
 
 ### EA的增益
+
 10mA处PMOS的rds=1.76kΩ，gm=83.8m，β=0.5556
 Load Regulation spec：5mV/10mA → Rout_closed < 0.5Ω，由于负反馈，输出电阻被降低了环路增益倍：
 
