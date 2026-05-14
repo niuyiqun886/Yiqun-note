@@ -191,8 +191,8 @@ $$
 ![](LDO/assets/LDO输出与环路增益关系.png)
 
 ### EA的增益
-
-10mA处PMOS的rds=1.76kΩ，gm=83.8m，β=0.5556
+==根据负载调整率和线性调整率：5mV/V；5mV/10mA==
+#### 1.由负载调整率：10mA处PMOS的rds=1.76kΩ，gm=83.8m，β=0.5556
 Load Regulation spec：5mV/10mA → Rout_closed < 0.5Ω，由于负反馈，输出电阻被降低了环路增益倍：
 
 
@@ -206,7 +206,7 @@ $$
 可知EA的增益只需要33dB就可以过Load Regulation 负载调整率。
 
 
-由图[LDO输出与环路增益关系](LDO/assets/LDO输出与环路增益关系.png)可知：PSRR
+#### 2.由线性调整率：由图[LDO输出与环路增益关系](LDO/assets/LDO输出与环路增益关系.png)可知：PSRR
 
 $$
 \begin{gather}
