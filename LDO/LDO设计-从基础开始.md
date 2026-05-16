@@ -21,28 +21,31 @@
 我的设计指标：（Vin范围最大为3V）
 
 
-| 类别     | 参数              | 取值        | 说明                   |
-| ------ | --------------- | --------- | -------------------- |
-| 基本电压电流 | Vin范围           | 2V~3V     |                      |
-|        | Vout            | 1.8V      |                      |
-|        | Iout_max        | 10mA      |                      |
-|        | Iout_min        | 0mA（空载）   | 必须空载稳定               |
-| 静态指标   | VDO@Iout_max    | ≤200mV    | 最低Vin=2V时仍能稳压        |
-|        | Iq@空载           | ≤50μA     |                      |
-|        | 初始精度            | ±2%       | Vout在1.764V~1.863V之间 |
-| DC调整率  | Line Regulation | ≤5mV/V    | DC Loop Gain ≥50dB   |
-|        | Load Regulation | ≤5mV/10mA | 闭环Rout≤0.5Ω          |
-| 瞬态指标   | Load Transient  |           |                      |
-|        |                 |           |                      |
-|        |                 |           |                      |
-|        |                 |           |                      |
-|        |                 |           |                      |
-|        |                 |           |                      |
-|        |                 |           |                      |
-|        |                 |           |                      |
+| 类别     | 参数              | 取值                                          | 说明                   |
+| ------ | --------------- | ------------------------------------------- | -------------------- |
+| 基本电压电流 | Vin范围           | 2V~3V                                       |                      |
+|        | Vout            | 1.8V                                        |                      |
+|        | Iout_max        | 10mA                                        |                      |
+|        | Iout_min        | 0mA（空载）                                     | 必须空载稳定               |
+| 静态指标   | VDO@Iout_max    | ≤200mV                                      | 最低Vin=2V时仍能稳压        |
+|        | Iq@空载           | ≤50μA                                       |                      |
+|        | 初始精度            | ±2%                                         | Vout在1.764V~1.863V之间 |
+| DC调整率  | Line Regulation | ≤5mV/V                                      | DC Loop Gain ≥50dB   |
+|        | Load Regulation | ≤5mV/10mA                                   | 闭环Rout≤0.5Ω          |
+| 瞬态指标   | Load Transient  | ΔIout:1mA→10mA,edge=1μs <br>ΔVout < ±50mV   | 1μs是1mA跳到10mA所用的时间   |
+|        | Line Transient  | ΔVin: 2.5V→3.3V, edge=1μs <br>ΔVout < ±30mV |                      |
+| 频域指标   | PSRR @ 100Hz    | ≥ 60dB                                      | 由DC环路增益决定            |
+|        | PSRR @ 10kHz    | ≥ 40dB                                      | 中频，受UGB影响            |
+|        | PSRR @ 1MHz     | ≥ 20dB                                      | 高频，靠Cout             |
+|        | 相位裕度            | ≥ 60°                                       | 主极点补偿基本要求            |
+|        | 增益裕度            | ≥ 10dB                                      |                      |
+| 外部条件   | Cout            | 1μF                                         | 片外陶瓷电容               |
+|        | ESR             | 10mΩ ~ 100mΩ                                | MLCC典型值              |
+| 内部参考   | Vref            | 1.0V                                        | 假设有理想bandgap         |
+| 环境     | 温度范围            | -40°C ~ 85°C                                |                      |
+|        | 工艺              | TSMC 0.18μm                                 |                      |
+|        | Corner          | TT为主，FF/SS验证                                |                      |
 
-
-![697](LDO/assets/设计指标.png)
 
 claude code 算出的μpCox的值
 
