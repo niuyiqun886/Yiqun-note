@@ -253,7 +253,7 @@ $$
 可知EA的增益只需要33dB就可以过Load Regulation 负载调整率。
 
 
-##### 线性调整率：由图[LDO输出与环路增益关系](LDO/assets/LDO输出与环路增益关系.png)可知：PSRR
+##### 线性调整率：由图[LDO输出与环路增益关系](LDO/assets/LDO输出与环路增益关系.png)可知：PSRR，10mA负载
 
 $$
 \begin{gather}
@@ -265,7 +265,7 @@ $$
 
 $$
 \begin{gather}
-A_{EA}> \frac{1000}{g_{mp}\cdot r_{ds}\cdot \beta }= \frac{1}{0.0838\times 0.5556\times 1759} \approx 12 \approx 22dB
+A_{EA}> \frac{1000}{g_{mp}\cdot r_{ds}\cdot \beta }= \frac{1}{0.0838\times 0.5556\times 163} \approx 12 \approx 22dB
 \end{gather}
 $$
 
