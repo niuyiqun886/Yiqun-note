@@ -279,7 +279,7 @@ $$
 $$
 \begin{gather}
 ΔV_{out} \approx \frac{ΔI}{2\cdot \pi UGB\cdot C_{out}} \\
-UGB \geq 
+UGB \geq \frac{9mA}{2\pi×1\mu F ×50mV} = 28.6KHz
 \end{gather}
 $$
 
