@@ -275,10 +275,14 @@ $$
 
 ##### 3.UGB单位增益带宽
 
-负载瞬态响应：ΔVout < 50mV @ ΔI=9mA/1μs
-- 环路响应前的电压跌落 ≈ ΔI × t / Cout
-- t ~ 1/UGB
-- 要求 UGB ≥ ΔI / (Cout × ΔVout) = 9mA/(1μF × 50mV) = 180kHz
+负载瞬态响应：ΔVout < 50mV @ ΔI=9mA/1μs（小信号近似）
+$$
+\begin{gather}
+ΔV_{out} \approx \frac{ΔI}{2\cdot \pi UGB\cdot C_{out}} \\
+UGB \geq 
+\end{gather}
+$$
+
 
 
 
