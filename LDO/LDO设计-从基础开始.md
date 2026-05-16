@@ -302,7 +302,5 @@ $$
 
 
 
-失调约束：
+##### 4.失调约束：
 初始精度 ±2% × 1.8V = ±36mV。referred到EA输入：ΔVin_offset = ΔVout × β = 36mV × 0.556 = **20mV**。
-
-5T OTA失调主要来自输入对Vth失配：σ(ΔVth) = AVT/√(WL)。TSMC 0.18μm的AVT ≈ 4-5mV·μm。要σ ≤ 7mV（3σ ≤ 21mV）：
