@@ -288,7 +288,7 @@ Load  Trans 给出 UGB≥30kHz
 ΔVin = 0.8V，1μs上升沿。在边沿期间，如果EA响应不够快，pass管的Vgate不跟随Vin，则Vsg会瞬时变化，引发大ID扰动：
 
 $$
-、
+\Delta I_{out,peak} \approx \Delta V_{sg}\cdot g_{m,pass}
 $$
 
 
