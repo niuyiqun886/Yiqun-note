@@ -235,15 +235,11 @@ $$
 #### 2.DC增益
 **约束来源**：Line Reg ≤ 5mV/V → DC Loop Gain ≥ 50dB；Load Reg → Rout_closed ≤ 0.5Ω；PSRR@100Hz ≥ 60dB（最严苛）。
 
-
-
-
-
 ![](LDO/assets/LDO输出与环路增益关系.png)
 
 
 ==根据负载调整率和线性调整率：5mV/V；5mV/10mA==
-#### 1.由负载调整率：10mA处PMOS的rds=1.76kΩ，gm=83.8m，β=0.5556
+##### 负载调整率：10mA处PMOS的rds=1.76kΩ，gm=83.8m，β=0.5556
 Load Regulation spec：5mV/10mA → Rout_closed < 0.5Ω，由于负反馈，输出电阻被降低了环路增益倍：
 
 
@@ -257,7 +253,7 @@ $$
 可知EA的增益只需要33dB就可以过Load Regulation 负载调整率。
 
 
-#### 2.由线性调整率：由图[LDO输出与环路增益关系](LDO/assets/LDO输出与环路增益关系.png)可知：PSRR
+##### 线性调整率：由图[LDO输出与环路增益关系](LDO/assets/LDO输出与环路增益关系.png)可知：PSRR
 
 $$
 \begin{gather}
@@ -272,6 +268,7 @@ $$
 A_{EA}> \frac{1000}{g_{mp}\cdot r_{ds}\cdot \beta }= \frac{1}{0.0838\times 0.5556\times 1759} \approx 12 \approx 22dB
 \end{gather}
 $$
+
 
 ### 结论:
 **两个结论去最大的，即33dB，EA的DC增益只要 40~50dB 就完全够用**——这给我们的EA拓扑选择留了很大空间。可以选简单的单级telescopic或folded cascode，不需要两级结构。
