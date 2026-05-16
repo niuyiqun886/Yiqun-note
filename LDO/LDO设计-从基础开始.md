@@ -294,7 +294,7 @@ $$
 $$
 \begin{gather}
 \tau_{loop} \leq \frac{\Delta V_{out}\cdot C_{out}}{\Delta V_{in}\cdot g_{m,pass}} = \frac{30mV\times 1\mu F}{0.8V\times 83.82mA/V}\approx0.45\mu s \\
-UGB \geq \frac{1}{2\pi×1\mu F ×0.45} = 28.6kHz
+UGB \geq \frac{1}{2\pi×0.45\mu s} \approx 350kHz
 \end{gather}
 $$
 
