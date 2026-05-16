@@ -293,7 +293,7 @@ $$
 要在UGB有限带宽下把这个扰动压在30mV内，需要loop响应时间快于：
 $$
 \begin{gather}
-
+\tau_{loop} \leq \frac{\Delta V_{out}\cdot C_{}}{}
 \end{gather}
 $$
 
