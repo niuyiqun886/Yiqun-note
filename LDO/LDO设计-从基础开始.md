@@ -297,10 +297,5 @@ $$
 UGB \geq \frac{1}{2\pi×0.45\mu s} \approx 350kHz
 \end{gather}
 $$
-
-
-
-
-
 ##### 4.失调约束：
 初始精度 ±2% × 1.8V = ±36mV。referred到EA输入：ΔVin_offset = ΔVout × β = 36mV × 0.556 = **20mV**。
