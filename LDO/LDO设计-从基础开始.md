@@ -35,8 +35,6 @@
 | 瞬态指标   | Load Transient  | ΔIout:1mA→10mA,edge=1μs <br>ΔVout < ±50mV   | 1μs是1mA跳到10mA所用的时间   |
 |        | Line Transient  | ΔVin: 2.5V→3.3V, edge=1μs <br>ΔVout < ±30mV |                      |
 | 频域指标   | PSRR @ 100Hz    | ≥ 60dB                                      | 由DC环路增益决定            |
-|        | PSRR @ 10kHz    | ≥ 40dB                                      | 中频，受UGB影响            |
-|        | PSRR @ 1MHz     | ≥ 20dB                                      | 高频，靠Cout             |
 |        | 相位裕度            | ≥ 60°                                       | 主极点补偿基本要求            |
 |        | 增益裕度            | ≥ 10dB                                      |                      |
 | 外部条件   | Cout            | 1μF                                         | 片外陶瓷电容               |
@@ -219,12 +217,11 @@ $$
 | Vol（最低输出） | ≤ 1.08V @ VDD=2V   | 满载dropout         |
 | Voh（最高输出） | ≥ 2.3V @ VDD=3V    | 空载关断PMOS          |
 | DC增益 A_EA | ≥ 50dB（含margin）    | PSRR@100Hz ≥ 60dB |
-| UGB（小信号）  | ≥ 1MHz @ 10mA load | PSRR@10kHz ≥ 40dB |
-| Rout_EA   | ≤ 4.5kΩ（或加补偿）      |                   |
-|           |                    |                   |
-|           |                    |                   |
-|           |                    |                   |
-|           |                    |                   |
+| Rout_EA   | ≤ 4.5kΩ（或加补偿）      | PM ≥ 60°          |
+| Itail     | ≤ 25μA             | Iq ≤ 50μA         |
+| 输入offset  | ≤ 20mV             | 初始精度 ±2%          |
+| 容性负载能力    | Cgg ≈ 12pF（满载）     | Slew rate要求       |
+
 
 
 
