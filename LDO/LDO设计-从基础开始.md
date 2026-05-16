@@ -284,10 +284,12 @@ UGB \geq \frac{9mA}{2\pi×1\mu F ×50mV} = 28.6kHz
 $$
 Load  Trans 给出 UGB≥30kHz
 
+线性瞬态响应：
+ΔVin = 0.8V，1μs上升沿。在边沿期间，如果EA响应不够快，pass管的Vgate不跟随Vin，则Vsg会瞬时变化，引发大ID扰动：
 
-
-
-
+$$
+、
+$$
 
 
 
