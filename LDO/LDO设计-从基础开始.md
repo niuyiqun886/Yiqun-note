@@ -233,6 +233,10 @@ $$
 电源电压2V时满载，最低输出1.08V；电源电压3V时空载最高电压1.08V
 
 #### 2.DC增益
+**约束来源**：Line Reg ≤ 5mV/V → DC Loop Gain ≥ 50dB；Load Reg → Rout_closed ≤ 0.5Ω；PSRR@100Hz ≥ 60dB（最严苛）。
+
+
+
 
 
 ![](LDO/assets/LDO输出与环路增益关系.png)
