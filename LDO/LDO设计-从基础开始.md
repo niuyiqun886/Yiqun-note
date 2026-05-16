@@ -290,7 +290,12 @@ Load  Trans 给出 UGB≥30kHz
 $$
 \Delta I_{out,peak} \approx \Delta V_{sg}\cdot g_{m,pass}
 $$
+要在UGB有限带宽下把这个扰动压在30mV内，需要loop响应时间快于：
+$$
+\begin{gather}
 
+\end{gather}
+$$
 
 
 
