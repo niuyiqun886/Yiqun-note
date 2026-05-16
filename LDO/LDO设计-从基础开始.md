@@ -212,28 +212,32 @@ $$
 
 ### EA的参数要求：
 
-| 参数        | 目标值              | 来源约束              |
-| --------- | ---------------- | ----------------- |
-| Vol（最低输出） | ≤ 1.08V @ VDD=2V | 满载dropout         |
-| Voh（最高输出） | ≥ 2.3V @ VDD=3V  | 空载关断PMOS          |
-| DC增益 A_EA | ≥ 50dB（含margin）  | PSRR@100Hz ≥ 60dB |
-| Rout_EA   | ≤ 4.5kΩ（或加补偿）    | PM ≥ 60°          |
-| Itail     | ≤ 25μA           | Iq ≤ 50μA         |
-| 输入offset  | ≤ 20mV           | 初始精度 ±2%          |
-| 容性负载能力    | Cgg ≈ 12pF（满载）   | Slew rate要求       |
+| 参数        | 目标值               | 来源约束              |
+| --------- | ----------------- | ----------------- |
+| Vol（最低输出） | ≤ 1.08V @ VDD=2V  | 满载dropout         |
+| Voh（最高输出） | ≥ 2.3V @ VDD=3V   | 空载关断PMOS          |
+| DC增益 A_EA | ≥ 50dB（含margin）   | PSRR@100Hz ≥ 60dB |
+| UGB       | ≥1MHz（PSRR@10k驱动） |                   |
+| Rout_EA   | ≤ 13.6kΩ          | PM ≥ 60°          |
+| Itail     | ≤ 25μA            | Iq ≤ 50μA         |
+| 输入offset  | ≤ 20mV            | 初始精度 ±2%          |
+| 容性负载能力    | Cgg ≈ 12pF（满载）    | Slew rate要求       |
 注意：由于反馈电阻为1M和800K，故反馈节点为高阻节点约为444K，会和放大器的输入电容构成一个极点。
 - Cfb=100fF：fp_fb ≈ 3.6MHz（OK，远超UGB）
 - Cfb=500fF：fp_fb ≈ 720kHz（⚠️ 接近UGB，可能要管）
 - Cfb=1pF：fp_fb ≈ 360kHz（💀 必须补偿）
 
 
+#### 1.Vol和Voh的确定：
 
+电源电压2V时满载，最低输出1.08V；电源电压3V时空载最高电压1.08V
 
+#### 2.DC增益
 
 
 ![](LDO/assets/LDO输出与环路增益关系.png)
 
-### EA的增益
+
 ==根据负载调整率和线性调整率：5mV/V；5mV/10mA==
 #### 1.由负载调整率：10mA处PMOS的rds=1.76kΩ，gm=83.8m，β=0.5556
 Load Regulation spec：5mV/10mA → Rout_closed < 0.5Ω，由于负反馈，输出电阻被降低了环路增益倍：
