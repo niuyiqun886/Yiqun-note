@@ -221,7 +221,10 @@ $$
 | Itail     | ≤ 25μA           | Iq ≤ 50μA         |
 | 输入offset  | ≤ 20mV           | 初始精度 ±2%          |
 | 容性负载能力    | Cgg ≈ 12pF（满载）   | Slew rate要求       |
-
+注意：由于反馈电阻为1M和800K，故反馈节点为高阻节点约为444K，会和放大器的输入电容构成一个极点。
+- Cfb=100fF：fp_fb ≈ 3.6MHz（OK，远超UGB）
+- Cfb=500fF：fp_fb ≈ 720kHz（⚠️ 接近UGB，可能要管）
+- Cfb=1pF：fp_fb ≈ 360kHz（💀 必须补偿）
 
 
 
