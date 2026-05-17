@@ -309,7 +309,8 @@ DC结果：（正常要在所有Corner都通过）
 静态工作点：
 ![](assets/OTA%20DC结果.png)
 
-DC_sweep，VIN从0V~3V
-![](assets/DC_sweep结果.png)
+DC_sweep，VIN从0V~3V（从斜率可以看出增益）
+![](assets/OTA_DC_SWEEP结果.png)
+
 
 AC仿真：12pF的负载电容
