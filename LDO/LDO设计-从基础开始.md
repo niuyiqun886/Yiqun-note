@@ -39,7 +39,7 @@
 |        | 增益裕度            | ≥ 10dB                                      |                      |
 | 外部条件   | Cout            | 1μF                                         | 片外陶瓷电容               |
 |        | ESR             | 10mΩ ~ 100mΩ                                | MLCC典型值              |
-| 内部参考   | Vref            | 1.0V                                        | 假设有理想bandgap         |
+| 内部参考   | Vref            | 1.5V                                        | 假设有理想bandgap         |
 | 环境     | 温度范围            | -40°C ~ 85°C                                |                      |
 |        | 工艺              | TSMC 0.18μm                                 |                      |
 |        | Corner          | TT为主，FF/SS验证                                |                      |
@@ -305,3 +305,5 @@ $$
 原理图：
 ![|429x479](assets/OTA仿真.png)
 
+DC结果：
+![](assets/OTADC结果.png)
