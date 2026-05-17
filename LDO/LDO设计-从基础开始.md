@@ -301,3 +301,7 @@ $$
 初始精度 ±2% × 1.8V = ±36mV。referred到EA输入：ΔVin_offset = ΔVout × β = 36mV × 0.556 = **20mV**。
 
 
+##### 仿真：
+原理图：
+![|429x479](assets/OTA仿真.png)
+
