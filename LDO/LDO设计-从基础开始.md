@@ -305,6 +305,7 @@ $$
 原理图：
 ![|429x479](assets/OTA仿真.png)
 
-DC结果：
+DC结果：（正常要在所有Corner都通过）
 ![](assets/OTA%20DC结果.png)
+
 
