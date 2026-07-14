@@ -21,7 +21,7 @@ certificate /səˈtɪfɪkət/
 recognition /ˌrekəɡˈnɪʃn/
 	1.认出,识别
 	2.承认,认可;表彰
-6.The expression "to learn the ropes" is an idom meaning to learn how things are done in a certain group or organization.
+6.The expression "to learn the ropes" is an idiom meaning to learn how things are done in a certain group or organization.
 rope /rəʊp/
 	1.绳索
 	2.the ropes 诀窍,门道(习语用法)
