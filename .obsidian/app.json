@@ -1,8 +1,9 @@
 {
   "useMarkdownLinks": true,
-  "openBehavior": "file:assets",
+  "openBehavior": "file:EET-LDO.md",
   "attachmentFolderPath": "./assets",
   "alwaysUpdateLinks": true,
   "newLinkFormat": "relative",
-  "promptDelete": false
+  "promptDelete": false,
+  "newFileLocation": "root"
 }
