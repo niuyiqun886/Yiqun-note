@@ -30,7 +30,9 @@ TIA：不能饱和(需要调控TIA的gain)，需要gain contral 越自动越好(
 
 Responsivity(R)：会和偏压有关系
 
+
 $$
 R \triangleq \frac{Induced \, I}{ Input \, light \, Power}
 $$
+
 
