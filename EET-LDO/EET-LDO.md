@@ -1,5 +1,7 @@
 ## chapter2
 
+### 2.0
+
 一个简单的放大器 $A$  和反馈因子 $F$  
 
 ![](./assets/cc306f7a-c3a9-4427-b846-6b14f4ac67cd.png)
@@ -50,7 +52,9 @@ $$
 图中蓝色虚线的模  $\left| \frac{1}{F} \right| = \frac{1}{(\omega C_{m})}$  
 交点的条件： $\left| A F \right| = 1$  也就是两个曲线相等。
 
-求解： 当   $C_{m}$  在增大时两个曲线出现交点，几点发生变化 $p_{1} \to p_{1}'$     $p_{2} \to p_{2}'$  
+求解： 当   $C_{m}$  在增大时两个曲线出现交点，几点发生变化
+
+$p_{1} \to p_{1}'$   令：
 
 $$
 A_{0} = g_{m} R_{o1} R_{o2} =  \left| \frac{1}{F} \right| = \frac{1}{(\omega C_{m})}
@@ -62,15 +66,30 @@ p_{1}' = \frac{1}{ g_{m} R_{o1} R_{o2} C_{m}}
 $$
 
 
+$p_{2} \to p_{2}'$   令
+
+
+$$
+\begin{gather}
+\left| A(s) \right| = \frac{g_{m} R_{o1} R_{o2} }{(1 + s R_{o1} C_{p1}) (1 + s R_{o2} C_{p2})} \approx \frac{g_{m} R_{o1} R_{o2}}{\omega^{2} R_{o1} C_{p1} R_{o2} C_{p2}} = \frac{g_{m}}{\omega^{2} C_{p1} C_{p2}}\\
+\left| A(s) \right| = \left| \frac{1}{F} \right| = \frac{1}{(\omega C_{m})}
+\end{gather}
+$$
 
 
 
+解得：
 
+$$
+p_{2}' = \frac{g_{m} C_{m}}{C_{p1} C_{p2}}
+$$
+==**存在一个漂亮的不变量：**==
 
+$$
+p_{1}' \cdot p_{2}' =  \frac{1}{ g_{m} R_{o1} R_{o2} C_{m}} \cdot \frac{g_{m} C_{m}}{C_{p1} C_{p2}} = \frac{1}{R_{o1}C_{p1}} \cdot \frac{1}{R_{o2}C_{p2}} = p_{1} \cdot p_{2}
+$$
 
-
-
-
+2.1应用负反馈的方法去密勒补偿
 
 
 
