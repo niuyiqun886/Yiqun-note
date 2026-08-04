@@ -35,4 +35,4 @@ $$
 R \triangleq \frac{Induced \, I}{ Input \, light \, Power} (A/W)
 $$
 
-
+举例：R = 0.5 (A/W)    850nm lacer
