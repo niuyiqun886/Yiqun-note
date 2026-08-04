@@ -15,7 +15,7 @@ TIA：不能饱和(需要调控TIA的gain)，需要gain contral 越自动越好(
 
 介绍PD：Photo diode
 
-![](./assets/230d582a-0a68-4da6-953f-3e1f52ad0fe4.png)
+![](./assets/230d582a-0a68-4da6-953f-3e1f52ad0fe4.png)![](./assets/eb87cf20-6225-4218-8ef7-d767076c7804.png)
 
 另一个名称：P-intrinsic-N(PIN)
 特点：  
