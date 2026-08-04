@@ -47,10 +47,19 @@ A(s) = \frac{g_{m} R_{o1} R_{o2} }{(1 + s R_{o1} C_{p1}) (1 + s R_{o2} C_{p2})}
 $$
 
 两个独立的极点 $\frac{1}{R_{o1}C_{p1}}$  和   $\frac{1}{R_{o2}C_{p2}}$  ，直流增益为  $A_{0} = g_{m} R_{o1} R_{o2}$ 
-图中蓝色虚线的模  $\left| \frac{1}{F} \right| = \frac{1}{(\omega C_{m})}$ 
-jiaodian 
+图中蓝色虚线的模  $\left| \frac{1}{F} \right| = \frac{1}{(\omega C_{m})}$  
+交点的条件： $\left| A F \right| = 1$  也就是两个曲线相等。
 
+求解： 当   $C_{m}$  在增大时两个曲线出现交点，几点发生变化 $p_{1} \to p_{1}'$     $p_{2} \to p_{2}'$  
 
+$$
+A_{0} = g_{m} R_{o1} R_{o2} =  \left| \frac{1}{F} \right| = \frac{1}{(\omega C_{m})}
+$$
+解得：
+
+$$
+p_{1}' = \frac{1}{ g_{m} R_{o1} R_{o2} C_{m}}
+$$
 
 
 
