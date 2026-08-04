@@ -14,3 +14,8 @@ TIA：不能饱和(需要调控TIA的gain)，需要gain contral 越自动越好(
 阻抗要求：大多数情况是没什么阻抗的要求的，但是还是输入阻抗越小越好(保证感应的电流大多数都进入TIA)
 
 介绍PD：Photo diode
+
+![](./assets/bf12fbee-867c-4e9c-afc1-2b9af9d42828.png)
+
+另一个名称：P-intrinsic-N(PIN)
+特点：反偏
