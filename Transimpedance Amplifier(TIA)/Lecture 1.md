@@ -2,5 +2,13 @@
 →The very front-end in the RX of optical serial links(接收信号的最前端，光串联链路)
 → Provide reasonable gain（增益不会太大）introducing minimal noise and briding signal to the subsequent blocks.(引入最小的噪声，桥接信号和后面的模块)
 
+Optical RX
+
+![](./assets/6a4d4c05-15b8-4bad-aa41-c2cce0cba7c4.png)
+
+光电二极管→TIA→(可能用到单端转双端，或者后面再做单端转双端)→再做CTLE+LA、或者equallazer(均衡器)这些
 
 
+TIA：不能饱和(需要调控TIA的gain)，需要gain contral 越自动越好(最好是自己可以判断调整gain，在模拟世界解决)
+
+介绍PD：Photo diode
