@@ -15,9 +15,11 @@ TIA：不能饱和(需要调控TIA的gain)，需要gain contral 越自动越好(
 
 介绍PD：Photo diode
 
-![](./assets/230d582a-0a68-4da6-953f-3e1f52ad0fe4.png)![](./assets/eb87cf20-6225-4218-8ef7-d767076c7804.png)
+![](./assets/230d582a-0a68-4da6-953f-3e1f52ad0fe4.png)![|347x233](./assets/c4da7f13-eb5f-422e-9116-3fcb1d8c04dc.png)
 
 另一个名称：P-intrinsic-N(PIN)
 特点：  
 	1. 反偏
 	2.光照进二极管耗尽区时产生电流
+
+光照产生反向的反流，如右图，不同光照强度产生不同的电流。
