@@ -38,3 +38,11 @@ $$
 举例：
 	1. R = 0.5 (A/W)    for    850nm lacer(激光)
 	2. R = 0.9 (A/W)    for    1.55μm lacer
+
+ER (Extinction Ratio)(消光比)：逻辑1时候的power和逻辑0时候的power（关断和开启）
+
+$$
+ER \triangleq \frac{P_{1}}{P_{0}} = \frac{Logical \, 1 \, Power}{Logical \, 0 \, Power} \, (A/W)
+$$
+
+
