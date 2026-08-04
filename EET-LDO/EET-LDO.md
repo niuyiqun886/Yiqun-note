@@ -20,8 +20,8 @@ $$
 
 $$
 \begin{gather}
-\frac{i_{s}}{v_{o}} \approx \frac{A}{1 + AF} \approx \frac{1}{F} &&& when \;AF \gg 1 ----(2-3-1)  \\
-\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \  \approx A &&& when \;AF \ll 1 ----(2-3-2)
+\frac{i_{s}}{v_{o}} \approx \frac{A}{1 + AF} & \approx \frac{1}{F} &&& when \;AF \gg 1 ----(2-3-1)  \\
+\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \  & \approx A &&& when \;AF \ll 1 ----(2-3-2)
 \end{gather}
 $$
 
