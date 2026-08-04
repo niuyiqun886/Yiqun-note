@@ -26,5 +26,11 @@ TIA：不能饱和(需要调控TIA的gain)，需要gain contral 越自动越好(
 
 判断PD的好坏参数：Responsivity如下图：
 
-![](./assets/bcc8e203-dedf-4b3e-a783-f8404323e1c2.png)
+![](./assets/b5643b2b-2bc3-4e8f-a32a-5f81df01587b.png)
+
+Responsivity(R)：会和偏压有关系
+
+$$
+R = 
+$$
 
