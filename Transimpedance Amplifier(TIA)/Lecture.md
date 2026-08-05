@@ -59,15 +59,17 @@ Need to consider whole spectrum(of interest)
 
 输出等效噪声除增益 $R_{T}^2$   ；在带宽内积分，积分的结果才是所有的Noise
 
-增益 $R_{T}^2$  也可能是和频率相关的。直接用  $R_{T.DC}$  来除就好了
+增益 $R_{T}^2$  也可能是和频率相关的。直接用  $R_{T,DC}$  来除就好了
 输入噪声定义：
 
 $$
-\overline{I_{n,in}^2} \triangleq \frac{\int_{0}^{\infty} \overline{V_{n.out}^2} \,dx}{R_{T.DC}^2}
+\overline{I_{n,in}^2} \triangleq \frac{\int_{0}^{\infty} \overline{V_{n,out}^2} \,dx}{R_{T,DC}^2}
 $$
 
+RMS值：
+
 $$
-I_{n,rms}
+I_{n,rms} = \sqrt{\overline{I_{n,in}^2}}
 $$
 
 
