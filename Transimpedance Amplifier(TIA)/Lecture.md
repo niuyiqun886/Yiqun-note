@@ -62,5 +62,5 @@ Need to consider whole spectrum(of interest)
 增益 $R_{T}^2$  也可能是和频率相关的。直接用  $R_{T.DC}$  来除就好了
 
 $$
-\overline{I_{n.in}^2} \triangleq \frac{}{}
+\overline{I_{n.in}^2} \triangleq \frac{\int_{0}^{\infty} \overline{V_{n.out}^2} \,dx}{R_{T.DC}^2}
 $$
