@@ -124,7 +124,11 @@ I_{2} = R \times P_{2} = 22.7 \mu A  \\
 I_{pp} = I_{1} - I_{2} = 68 \mu A
 \end{gather}
 $$
-所以，
+所以，从输入到 $D_{out}$  需要的增益：
+
+$$
+Total gain = \frac{600mV}{68 \mu A} = 8.8k 
+$$
 
 
 
