@@ -92,14 +92,25 @@ p_{1}' \cdot p_{2}' =  \frac{1}{ g_{m} R_{o1} R_{o2} C_{m}} \cdot \frac{g_{m} C_
 $$
 
 2.1应用负反馈的方法去密勒补偿
+没有其他提示的话：下面假设  $g_{mi} \gg 1; C_{mi},C_{L} \gg C_{pi}$  
 
+![600](./assets/7be59180-952f-4f59-9bfd-8f7250356c82.png)
 
+上图可以变为：模块H和反馈元件 $C_{m1}$  ，传递函数根据闭环增益等式表示为：
 
+$$
+\frac{V_{0}(s)}{V_{in}(s)} \approx A_{\infty} \cdot \frac{T}{1 + T} + \frac{d}{1 + T} \approx A_{\infty} \cdot \frac{T}{1 + T}
+$$
 
+T：密勒环路增益； 当 $T = \infty$ 时 $A_{\infty}$  是理想的闭环增益；d时 $T = 0$ 时的直接前馈
 
+注：这个公式在另一本书中表示为：
 
+$$
+\frac{V_{0}(s)}{V_{in}(s)} \approx A_{\infty} \cdot \frac{T}{1 + T} + A_{0} \frac{1}{1 + T} \approx A_{\infty} \cdot \frac{T}{1 + T}
+$$
 
-
+其中 $A_{0}$  为输入为0的时候的增益，当让输入为0的时候输出也为0，所以  $A_{0} = 0$  也就可以得到上面的公式了。  
 
 
 
