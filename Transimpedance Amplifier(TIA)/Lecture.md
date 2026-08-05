@@ -63,10 +63,12 @@ Need to consider whole spectrum(of interest)
 输入噪声定义：
 
 $$
-\overline{I_{n.in}^2} \triangleq \frac{\int_{0}^{\infty} \overline{V_{n.out}^2} \,dx}{R_{T.DC}^2}
+\overline{I_{n,in}^2} \triangleq \frac{\int_{0}^{\infty} \overline{V_{n.out}^2} \,dx}{R_{T.DC}^2}
 $$
 
-
+$$
+I_{n,rms}
+$$
 
 
 
