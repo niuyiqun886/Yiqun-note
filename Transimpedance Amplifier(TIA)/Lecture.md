@@ -83,7 +83,9 @@ $$
 \overline{I_{n}^2} \triangleq 2  \cdot q \cdot I
 $$
 
+举例：Ex Consider an optical front-end , determine: 如下图
 
+![](./assets/eb685684-e430-4fbc-bb06-320f8fce2408.png)
 
 
 
