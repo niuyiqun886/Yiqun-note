@@ -86,7 +86,7 @@ $$
 举例：Ex Consider an optical front-end , determine: 如下图
 (a) Overall gain(总增益需要多少)   (b) max(最大的噪声多少可以接受)
 
-![](./assets/eb685684-e430-4fbc-bb06-320f8fce2408.png)
+![](./assets/dbb1ec0a-b088-4ecd-ba3b-81dba3647313.png)
 
 平均光的功率 $\overline{P}$ 、消光比 $ER$、 响应度 $R$ 
 
@@ -94,7 +94,8 @@ $$
 \begin{cases}
 \overline{P} = -12 dBm \\
 ER = 6 dB  \\
-R = 0.9 A/W
+R = 0.9 A/W \\
+Do_{out} \geq 600 mV_{pp}
 \end{cases}
 $$
 tolerable input-referred noise for $BEV < 10^{-12}$  
@@ -123,7 +124,7 @@ I_{2} = R \times P_{2} = 22.7 \mu A  \\
 I_{pp} = I_{1} - I_{2} = 68 \mu A
 \end{gather}
 $$
-
+所以，
 
 
 
