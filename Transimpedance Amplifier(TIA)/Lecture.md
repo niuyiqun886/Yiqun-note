@@ -217,11 +217,12 @@ Low Output-resistance to properly drive  the subsequent blocks.
 ![](./assets/d6bc18b3-9ef5-43b7-b95f-3b5dd521917c.png)
 
 （a）Low freq：
+其中  $G_{m}R_{F} \gg 1$  ;  $G_{m}R_{out} \gg 1$  
 
 $$
 \begin{gather}
 I_{in} = G_{m} V_{in} + \frac{V_{out}}{R_{out}} = \frac{V_{in} - V_{out}}{R_{F}} \\
-R_{T} = \frac{V_{out}}{I_{in}} = \frac{R_{out} (1 - G_{m} R_{F})}{1 + G_{m} R_{out}}
+R_{T} = \frac{V_{out}}{I_{in}} = \frac{R_{out} (1 - G_{m} R_{F})}{1 + G_{m} R_{out}} \approx - R_{F}
 \end{gather}
 $$
 
