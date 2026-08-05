@@ -114,7 +114,15 @@ $$
 P_{1} = 100.8 \mu W,P_{0} = 25.2 \mu W
 \end{gather}
 $$
+又  $R = 0.9 A/W$  得到：
 
+$$
+\begin{gather}
+I_{1} = R \times P_{1} = 90.7 \mu A \\
+I_{2} = R \times P_{2} = 22.7 \mu A  \\
+I_{pp} = I_{1} - I_{2} = 68 \mu A
+\end{gather}
+$$
 
 
 
