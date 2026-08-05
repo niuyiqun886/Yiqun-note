@@ -88,8 +88,6 @@ $$
 
 ![](./assets/dbb1ec0a-b088-4ecd-ba3b-81dba3647313.png)
 
-
-==计算增益：==
 平均光的功率 $\overline{P}$ 、消光比 $ER$、 响应度 $R$ 
 
 $$
@@ -101,6 +99,9 @@ D_{out} \geq 600 \text{mV}_{pp}
 \end{cases}
 $$
 tolerable input-referred noise for $BER < 10^{-12}$  
+
+==(a) Overall gain(总增益需要多少)：==
+
 
 $$
 \begin{gather}
@@ -134,15 +135,28 @@ $$
 
 For example, wo choose $TIA \,gain = 46 \text{dB} \Omega$   $LA \, gain = 40 \text{dB}$  留有余量。
 
-==计算noise：==  SNR越大越好，但是要达到什么程度可以达到我们的要求呢？ $BER < 10^{-12}$  
+==(b) max(最大的噪声多少可以接受)：==  SNR越大越好，但是要达到什么程度可以达到我们的要求呢？ $BER < 10^{-12}$  
 需要 $V_{pp} / noise_{value} \geq 14$     ==注：在宽频放大器那里有讲==
 
 ![](./assets/81375026-80f2-4996-8f0c-e3deb464893a.png)
 
+首先有：
+
+$$
+\begin{cases}
+\frac{I_{pp}}{I_{n,RMS}} \geq 14  \\
+I_{pp} = 68 \mu \text{A}  \\
+I_{n,rms} = \sqrt{\overline{I_{n,in}^2}}
+\end{cases}
+$$
+
+得到：
 
 
-
-
+$$
+I_{n,RMS} \leq 4.8 \mu \text{Arms}
+$$
+这个值是， Photo diode + TIA noise + LA noise 总噪声等效到TIA输入的值小于 $4.8 \mu \text{Arms}$ 
 
 
 
