@@ -115,7 +115,9 @@ $$
 
 
 
-
+$$
+T = \frac{-g_{m} \cdot R_{L} \parallel \frac{1}{SC_{L}}}{\frac{1}{SC_{p1}} + R_{L} \parallel \frac{1}{SC_{L}}} \cdot R_{o1} \parallel \frac{1}{SC_{p1}}
+$$
 
 
 
