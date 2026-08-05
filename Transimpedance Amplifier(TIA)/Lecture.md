@@ -55,7 +55,9 @@ Input-REF Noise
 High-speed (broadband) devices →
 Need to consider whole spectrum(of interest)
 
-![](./assets/4997f614-9bf0-4a23-aa5e-e7151a40cca1.png)
+![](./assets/69ab4e9e-a674-4821-b4ae-5e94edb3aaf6.png)
 
 输出等效噪声除增益 $R_{T}^2$   ；在带宽内积分，积分的结果才是所有的Noise
+
+增益 $R_{T}^2$  也可能是和频率相关的。直接用  $R_{T.DC}$  来除就好了
 
