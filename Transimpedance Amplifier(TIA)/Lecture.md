@@ -88,6 +88,8 @@ $$
 
 ![](./assets/dbb1ec0a-b088-4ecd-ba3b-81dba3647313.png)
 
+
+==计算增益：==
 平均光的功率 $\overline{P}$ 、消光比 $ER$、 响应度 $R$ 
 
 $$
@@ -95,7 +97,7 @@ $$
 \overline{P} = -12 \text{dBm} \\
 ER = 6 \text{dB}  \\
 R = 0.9 \text{A/W} \\
-Do_{out} \geq 600 \text{mV}_{pp}
+D_{out} \geq 600 \text{mV}_{pp}
 \end{cases}
 $$
 tolerable input-referred noise for $BEV < 10^{-12}$  
@@ -132,9 +134,10 @@ $$
 
 For example, wo choose $TIA \,gain = 46 \text{dB} \Omega$   $LA \, gain = 40 \text{dB}$  留有余量。
 
+==计算noise：==  SNR越大越好，但是要达到什么程度可以达到我们的要求呢？ $BEV < 10^{-12}$  
+需要 $V_{pp} / noise_{value} \geq 14$     ==注：在宽频放大器那里有讲==
 
-
-
+![](./assets/81375026-80f2-4996-8f0c-e3deb464893a.png)
 
 
 
