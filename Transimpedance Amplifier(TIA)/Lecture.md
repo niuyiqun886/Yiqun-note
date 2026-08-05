@@ -95,7 +95,7 @@ $$
 \overline{P} = -12 dBm \\
 ER = 6 dB  \\
 R = 0.9 A/W \\
-Do_{out} \geq 600 mV_{pp}
+Do_{out} \geq 600 \text{mV}_{pp}
 \end{cases}
 $$
 tolerable input-referred noise for $BEV < 10^{-12}$  
@@ -111,23 +111,23 @@ $$
 
 $$
 \begin{gather}
-\frac{1}{2} (P_{1} + P_{0}) = -12 dBm = 63 \mu W  \\
-P_{1} = 100.8 \mu W,P_{0} = 25.2 \mu W
+\frac{1}{2} (P_{1} + P_{0}) = -12 \text{dBm} = 63 \mu \text{W}  \\
+P_{1} = 100.8 \mu \text{W} , P_{0} = 25.2 \mu \text{W}
 \end{gather}
 $$
 又  $R = 0.9 A/W$  得到：
 
 $$
 \begin{gather}
-I_{1} = R \times P_{1} = 90.7 \mu A \\
-I_{2} = R \times P_{2} = 22.7 \mu A  \\
-I_{pp} = I_{1} - I_{2} = 68 \mu A
+I_{1} = R \times P_{1} = 90.7 \mu \text{A} \\
+I_{2} = R \times P_{2} = 22.7 \mu \text{A}  \\
+I_{pp} = I_{1} - I_{2} = 68 \mu \text{A}
 \end{gather}
 $$
 所以，从输入到 $D_{out}$  需要的增益：
 
 $$
-Total gain = \frac{600 \text{mV}{68 \mu \text{A}} = 8.8 \text{k} \Omega 
+Total gain = \frac{600 \text{mV}}{68 \mu \text{A}} = 8.8 \text{k} \Omega 
 $$
 
 
