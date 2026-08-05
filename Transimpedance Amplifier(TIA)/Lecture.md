@@ -98,6 +98,7 @@ R = 0.9 \text{A/W} \\
 D_{out} \geq 600 \text{mV}_{pp}
 \end{cases}
 $$
+
 tolerable input-referred noise for $BER < 10^{-12}$  
 
 ==(a) Overall gain(总增益需要多少)：==
@@ -118,6 +119,7 @@ $$
 P_{1} = 100.8 \mu \text{W} , P_{0} = 25.2 \mu \text{W}
 \end{gather}
 $$
+
 又  $R = 0.9 A/W$  得到：
 
 $$
@@ -127,6 +129,8 @@ I_{2} = R \times P_{2} = 22.7 \mu \text{A}  \\
 I_{pp} = I_{1} - I_{2} = 68 \mu \text{A}
 \end{gather}
 $$
+
+
 所以，从输入到 $D_{out}$  需要的增益：
 
 $$
