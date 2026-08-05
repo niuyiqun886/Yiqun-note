@@ -77,8 +77,10 @@ TIA must contribute as little noise as possible to ensure sensitivity ：贡献�
 ![](./assets/5a34bedf-5c66-4edc-b131-5cebe3419acb.png)
 
 
-Photo diode Noise(shot noise)
+Photo diode Noise(shot noise):
 
+$$
+\overline{I_{n}^2} \triangleq 2  \cdot q \cdot I
 $$
 
 
