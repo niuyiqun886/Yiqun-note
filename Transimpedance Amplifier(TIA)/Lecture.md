@@ -106,6 +106,14 @@ P_{1} = 4 P_{0}
 \end{gather}
 $$
 
+平均功率:
+
+$$
+\begin{gather}
+\frac{1}{2} (P_{1} + P_{0}) = -12 dBm = 63 \mu W  \\
+P_{1} = 100.8 \mu W,P_{0} = 25.2 \mu W
+\end{gather}
+$$
 
 
 
