@@ -72,12 +72,12 @@ $$
 I_{n,rms} = \sqrt{\overline{I_{n,in}^2}}
 $$
 
-TIA must contribute as little noise as possible to ensure sensitivity ：贡献尽可能少的噪声确保灵敏度，如下图：噪声大了信号就被淹没了，检测不到了
+==TIA must contribute as little noise as possible to ensure sensitivity== ：贡献尽可能少的噪声确保灵敏度，如下图：噪声大了信号就被淹没了，检测不到了
 
 ![](./assets/5a34bedf-5c66-4edc-b131-5cebe3419acb.png)
 
 
-Photo diode Noise(shot noise):
+Photo diode Noise(shot noise)：这个是器件的选型相关的
 
 $$
 \overline{I_{n}^2} \triangleq 2  \cdot q \cdot I
