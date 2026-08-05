@@ -190,9 +190,9 @@ $$
 *Why a TIA? Why not a simple resistor?
 1. Lower Input-resistance
 
+![](./assets/dee3b34c-1df4-4f22-93c0-30b25ae73706.png)
 
-
-
+如上图：当频率高的时候会产生电容的分流，以及 $R_{T}$  的分流。导致到达下一级的信号变得很微弱。
 
 
 
