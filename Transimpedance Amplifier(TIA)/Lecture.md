@@ -187,6 +187,8 @@ I_{n,PD0,rms} = 0.27 \mu \text{A,rms}
 \end{gather}
 $$
 
+*Why a TIA? Why not a simple resistor?
+1. 
 
 
 
