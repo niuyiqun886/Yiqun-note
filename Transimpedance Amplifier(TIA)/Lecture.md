@@ -201,7 +201,7 @@ An active TIA with proper design provide much lower input resistance → guarant
 2. Gain Contral
 A TIAwith automatic gain contral can increase its dynamic range, preventing itself from 'saturation' and ensuring sufficient amplification.
 
-
+3. Low Output-resistance
 
 
 
