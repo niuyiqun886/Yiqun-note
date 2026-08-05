@@ -203,6 +203,15 @@ A TIAwith automatic gain contral can increase its dynamic range, preventing itse
 
 3. Low Output-resistance
 
+![](./assets/42e508fe-b3a9-4aed-bb08-2bb778db2458-1.png)
+
+Low Output-resistance to properly drive  the subsequent blocks.
+
+4. More bandwidth（后面讲）
+
+5. Noise
+
+
 
 
 
