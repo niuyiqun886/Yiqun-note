@@ -77,8 +77,9 @@ TIA must contribute as little noise as possible to ensure sensitivity ：贡献�
 ![](./assets/5a34bedf-5c66-4edc-b131-5cebe3419acb.png)
 
 
-Photoshop
+Photo diode Noise(shot noise)
 
+$$
 
 
 
