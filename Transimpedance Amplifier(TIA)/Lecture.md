@@ -30,7 +30,7 @@ TIA：不能饱和(需要调控TIA的gain)，需要gain contral 越自动越好(
 
 ![](./assets/b5643b2b-2bc3-4e8f-a32a-5f81df01587b.png)
 
-Responsivity(R)：会和偏压有关系
+Responsivity(R)响应度：会和偏压有关系
 定义如下:（其中Input light Power 是光的功率可以量的出来）
 
 $$
@@ -84,13 +84,27 @@ $$
 $$
 
 举例：Ex Consider an optical front-end , determine: 如下图
+(a) Overall gain(总增益需要多少)   (b) max(最大的噪声多少可以接受)
 
 ![](./assets/eb685684-e430-4fbc-bb06-320f8fce2408.png)
 
+平均光的功率 $\overline{P}$ 、消光比 $ER$、 响应度 $R$ 
 
+$$
+\begin{cases}
+\overline{P} = -12 dBm \\
+ER = 6 dB  \\
+R = 0.9 A/W
+\end{cases}
+$$
+tolerable input-referred noise for $BEV < 10^{-12}$  
 
-
-
+$$
+\begin{gather}
+ER = 6 dB = 10 \log_{10}\frac{P_{1}}{P_{0}}   \\
+P_{1} = 4 P_{0}
+\end{gather}
+$$
 
 
 
