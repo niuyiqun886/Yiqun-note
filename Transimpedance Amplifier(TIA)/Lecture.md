@@ -198,7 +198,7 @@ $R_{in} \ll R_{T}$  ，保证所有的电流都流过TIA。
 An active TIA with proper design provide much lower input resistance → guaranteeing most PD current flowing in to TIA.
 
 
-
+2. Gain Contral
 
 
 
