@@ -127,7 +127,7 @@ $$
 所以，从输入到 $D_{out}$  需要的增益：
 
 $$
-Total gain = \frac{600mV}{68 \mu A} = 8.8k 
+Total gain = \frac{600mV}{68 \mu A} = 8.8 K \om 
 $$
 
 
