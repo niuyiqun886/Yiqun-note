@@ -92,9 +92,9 @@ $$
 
 $$
 \begin{cases}
-\overline{P} = -12 dBm \\
-ER = 6 dB  \\
-R = 0.9 A/W \\
+\overline{P} = -12 \text{dBm} \\
+ER = 6 \text{dB}  \\
+R = 0.9 \text{A/W} \\
 Do_{out} \geq 600 \text{mV}_{pp}
 \end{cases}
 $$
@@ -127,7 +127,7 @@ $$
 所以，从输入到 $D_{out}$  需要的增益：
 
 $$
-Total gain = \frac{600 \text{mV}}{68 \mu \text{A}} = 8.8 \text{k} \Omega 
+Total gain = \frac{600 \text{mV}}{68 \mu \text{A}} = 8.8 \text{k} \Omega = 79\text{dB} \Omega 
 $$
 
 
