@@ -50,3 +50,12 @@ $$
 
 ## lecture2
 
+Input-REF Noise
+
+High-speed (broadband) devices →
+Need to consider whole spectrum(of interest)
+
+![](./assets/4997f614-9bf0-4a23-aa5e-e7151a40cca1.png)
+
+输出等效噪声除增益 $R_{T}^2$   ；在带宽内积分，积分的结果才是所有的Noise
+
