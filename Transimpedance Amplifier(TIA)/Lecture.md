@@ -193,6 +193,9 @@ $$
 ![](./assets/dee3b34c-1df4-4f22-93c0-30b25ae73706.png)
 
 如上图：当频率高的时候会产生电容的分流，以及 $R_{T}$  的分流。导致到达下一级的信号变得很微弱。
+$R_{in} \ll R_{T}$  ，保证所有的电流都流过TIA。
+
+An active TIA with proper design provide much lower input resistance → guaranteeing most PD current flowing in to TIA.
 
 
 
