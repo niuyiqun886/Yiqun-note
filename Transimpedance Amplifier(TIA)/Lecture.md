@@ -214,7 +214,7 @@ Low Output-resistance to properly drive  the subsequent blocks.
 
 ==Feedback TIA(shunt-shunt)==
 
-
+![](./assets/d6bc18b3-9ef5-43b7-b95f-3b5dd521917c.png)
 
 
 
