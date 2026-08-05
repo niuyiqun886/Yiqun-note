@@ -72,7 +72,9 @@ $$
 I_{n,rms} = \sqrt{\overline{I_{n,in}^2}}
 $$
 
-TIA must contribute as little noise as possible to enoure 
+TIA must contribute as little noise as possible to enoure sensitivity ：贡献尽可能少的噪声
+
+
 
 
 
