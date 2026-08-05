@@ -66,11 +66,12 @@ $$
 \overline{I_{n,in}^2} \triangleq \frac{\int_{0}^{\infty} \overline{V_{n,out}^2} \,dx}{R_{T,DC}^2}
 $$
 
-RMS值：
+RMS Noise current：
 
 $$
 I_{n,rms} = \sqrt{\overline{I_{n,in}^2}}
 $$
+
 
 
 
