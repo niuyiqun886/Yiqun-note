@@ -86,7 +86,7 @@ $$
 举例：Ex Consider an optical front-end , determine: 如下图
 (a) Overall gain(总增益需要多少)   (b) max(最大的噪声多少可以接受)
 
-![](./assets/dbb1ec0a-b088-4ecd-ba3b-81dba3647313.png)
+![596](./assets/fee04383-96a5-4568-b50f-3ae4abc748be.png)
 
 平均光的功率 $\overline{P}$ 、消光比 $ER$、 响应度 $R$ 
 
