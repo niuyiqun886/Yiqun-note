@@ -130,7 +130,7 @@ $$
 所以，从输入到 $D_{out}$  需要的增益：
 
 $$
-Total gain = \frac{600 \text{mV}}{68 \mu \text{A}} = 8.8 \text{k} \Omega = 79\text{dB} \Omega 
+Total \, gain = \frac{600 \text{mV}}{68 \mu \text{A}} = 8.8 \text{k} \Omega = 79\text{dB} \Omega 
 $$
 
 For example, wo choose $TIA \,gain = 46 \text{dB} \Omega$   $LA \, gain = 40 \text{dB}$  留有余量。
@@ -154,19 +154,38 @@ $$
 
 
 $$
-I_{n,RMS} \leq 4.8 \mu \text{Arms}
+I_{n,RMS} \leq 4.8 \mu \text{A,rms}
 $$
 这个值是， Photo diode + TIA noise + LA noise 总噪声等效到TIA输入的值小于 $4.8 \mu \text{Arms}$ 
 
+==Caculate PD noise in a 10GHz system:==
+PD 噪声：
+
+$$
+\begin{gather}
+\overline{I_{n,\text{PD1}}^2} = \int_{0}^{\infty} \overline{I_{n}^2} \,df = 2 \cdot q \cdot I_{1} \cdot BW  \\
+q = 1.6 \times 10^{-19} \text{K} \\
+I_{1} = 90.7 \mu \text{A}
+\end{gather}
+$$
 
 
 
+$$
+\begin{gather}
+\overline{I_{n,\text{PD0}}^2} = \int_{0}^{\infty} \overline{I_{n}^2} \,df = 2 \cdot q \cdot I_{0} \cdot BW  \\
+I_{0} = 22.7 \mu \text{A}
+\end{gather}
+$$
 
+解得：
 
-
-
-
-
+$$
+\begin{gather}
+I_{n,PD1,rms} = 0.54 \mu \text{A,rms} \\
+I_{n,PD0,rms} = 0.27 \mu \text{A,rms}
+\end{gather}
+$$
 
 
 
