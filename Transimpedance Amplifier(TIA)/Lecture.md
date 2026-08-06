@@ -265,7 +265,7 @@ $$
 \begin{gather}
 R_{T} = \frac{-R_{F} A_{0} \omega_{0} \omega_{i}}{S^2 + S (\omega_{0} + \omega_{i}) +(A_{0} + 1)\omega_{0} \omega_{i}} = \frac{K_{1}}{s^2 + (\frac{\omega_{n}}{Q})S + \omega_{n}^2} \\
 K_{1} = -R_{F} A_{0} \omega_{0} \omega_{i}  \\
-
+\omega_{n}^2 = (A_{0} + 1)\omega_{0} \omega_{i}
 \end{gather}
 $$
 
