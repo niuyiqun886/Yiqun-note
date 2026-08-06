@@ -324,6 +324,6 @@ High-speed TIA  要求：
 ![316](./assets/67086ec5-ce26-4c3e-a839-2b96a9d4da86.png)
 
 FB TIA with follower.
-三个问题：stable? Noise? Gain?
+三个问题：==stable? Noise? Gain?==
 
 ![](./assets/fbf5d188-9784-4a45-908b-78f1c593acb7.png)
