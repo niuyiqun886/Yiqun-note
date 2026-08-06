@@ -281,8 +281,8 @@ peaking appears for $Q > \frac{1}{2}$
 探索：
 1. For $GBW = 10 \omega_{i} , Q = 3.16$
 	 $peaking = 10dB , \omega_{n} = 3.16 \omega_{i}$ 
-2. 
-
+2.  For $GBW = 100 \omega_{i} , Q = 10$
+	 $peaking = 20dB , \omega_{n} = 10 \omega_{i}$ 
 
 
 
