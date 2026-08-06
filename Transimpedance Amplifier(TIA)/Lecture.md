@@ -289,7 +289,9 @@ peaking appears for $Q > \frac{1}{2}$
 ==所以采用shunt-shunt结构的问题：==
 Bandwidth entend in a cost of peaking.
 
-改进：
+Modified FB TIA改进：
+
+
 
 
 
