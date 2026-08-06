@@ -293,6 +293,7 @@ Modified FB TIA改进：
 
 ![](./assets/b121524e-66f2-4da3-a82a-7a66b3668c60.png)
 
+可以自己计算下： $\omega_{n} , Q , R_{T}$ 
 
 
 $$
@@ -309,3 +310,11 @@ Peaking significantly reduced by $C_{F}$
 
 ![225](./assets/0e048cc5-41ee-4135-97dc-d4b18d95cd00.png)
 
+
+
+
+
+High-speed TIA  要求：
+
+1. Remove Opamp
+2. Simplify your Circuit as much as possible
