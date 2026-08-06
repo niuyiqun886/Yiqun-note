@@ -300,3 +300,6 @@ $$
 \end{gather}
 $$
 
+Peaking significantly reduced by $C_{F}$ 
+
+举例：
