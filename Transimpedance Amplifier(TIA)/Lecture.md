@@ -313,7 +313,7 @@ Peaking significantly reduced by $C_{F}$
 
 
 
-
+(shunt-shunt)还是达不到要求则需要：
 High-speed TIA  要求：
 
 1. Remove Opamp
