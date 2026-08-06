@@ -318,3 +318,6 @@ High-speed TIA  要求：
 
 1. Remove Opamp
 2. Simplify your Circuit as much as possible
+
+举例： Ex：
+
