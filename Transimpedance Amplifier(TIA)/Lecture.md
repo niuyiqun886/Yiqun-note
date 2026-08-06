@@ -326,4 +326,33 @@ High-speed TIA  要求：
 FB TIA with follower.
 三个问题：==stable? Noise? Gain?==
 
-![](./assets/fbf5d188-9784-4a45-908b-78f1c593acb7.png)
+![](./assets/b515f9f9-3af3-4d93-8db0-08e8b89d90c3.png)
+
+$$
+\begin{cases}
+V_{x} - I_{in} R_{F} = V_{out}  \\
+- g_{m1} V_{x} R{D} + I_{in} \cdot \frac{1}{g_{m2}} = V_{out}
+\end{cases}
+$$
+
+if  $g_{m1} R_{D} \gg 1$  
+
+$$
+R_{T} = \frac{V_{out}}{I_{in}} = - \frac{(g_{m1} R_{D} R_{F}) - \frac{1}{g_{m2}}}{1+ g_{m1} R_{D}} \approx -R_{F}
+$$
+输入阻抗：
+
+$$
+R_{in} = \frac{V_{x}}{I_{in}} = \frac{R_{F} + \frac{1}{g_{m2}}}{1 + g_{m1} R_{D}} \approx \frac{R_{F}}{1 + g_{m1} R_{D}}
+$$
+
+输出阻抗：
+
+$$
+R_{out} = \frac{R_{F} \parallel \frac{1}{g_{m2}}}{1 + g_{m1} R_{D}} \approx \frac{ \frac{1}{g_{m2}}}{1 + g_{m1} R_{D}}
+$$
+
+Drawbacks（缺点）:
+1.  $I_{b}$   parasitics cap 
+2.  Source follower
+3. 
