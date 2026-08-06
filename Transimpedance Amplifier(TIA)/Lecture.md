@@ -293,6 +293,8 @@ Modified FB TIA改进：
 
 ![](./assets/b121524e-66f2-4da3-a82a-7a66b3668c60.png)
 
+
+
 $$
 \begin{gather}
 \omega_{i} \triangleq \frac{1}{R_{F} C_{in}} \\
@@ -302,4 +304,8 @@ $$
 
 Peaking significantly reduced by $C_{F}$ 
 
-举例：
+举例： For the case $GBW = 100 \omega_{i}, \omega_{F} = 10 \omega_{i}$ 
+ we have $Q = 0.95 , \omega_{n} = \omega_{F} = 10 \omega_{i} , Peaking = 0.97dB$  
+
+![225](./assets/0e048cc5-41ee-4135-97dc-d4b18d95cd00.png)
+
