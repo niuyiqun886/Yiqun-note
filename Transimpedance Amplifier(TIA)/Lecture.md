@@ -259,14 +259,14 @@ $$
 
 输入等效电容和电阻 $R_{F}$  组成的 $\omega_{i}$  
 
-Opamp → 1st order approx:
+Opamp → 1st order approx: 条件
 
 $$
 \begin{gather}
 R_{T} = \frac{-R_{F} A_{0} \omega_{0} \omega_{i}}{S^2 + S (\omega_{0} + \omega_{i}) +(A_{0} + 1)\omega_{0} \omega_{i}} = \frac{K_{1}}{s^2 + (\frac{\omega_{n}}{Q})S + \omega_{n}^2} \\
 K_{1} = -R_{F} A_{0} \omega_{0} \omega_{i}  \\
 \omega_{n}^2 = (A_{0} + 1)\omega_{0} \omega_{i} \approx GBW \cdot \omega_{i} \\
-Q = \frac{\sqrt{(A_{0} + 1)\omega_{0} \omega_{i}}}{}
+Q = \frac{\sqrt{(A_{0} + 1)\omega_{0} \omega_{i}}}{\omega_{0} + \omega_{i}} \approx \sqrt{\frac{A_{0} \omega_{0}}{\omega_{i}}} = \sqrt{\frac{GBW}{\omega_{i}}}
 \end{gather}
 $$
 
