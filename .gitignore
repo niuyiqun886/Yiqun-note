@@ -1,8 +1,11 @@
 # Obsidian 配置（个人偏好，不需要同步）
+.obsidian/plugins/
 .obsidian/workspace.json
 .obsidian/workspace-mobile.json
 .obsidian/cache
 .obsidian/plugins/*/data.json
+
+.trash/
 
 # 系统文件
 .DS_Store
