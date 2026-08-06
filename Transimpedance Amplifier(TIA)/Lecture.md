@@ -244,7 +244,7 @@ $$
 
 （b）output-impedance
 
-
+![](./assets/9b010047-e3bf-4b28-a3fe-2e96fa50fc27.png)
 
 
 
