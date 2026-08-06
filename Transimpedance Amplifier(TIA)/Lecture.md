@@ -321,3 +321,8 @@ High-speed TIA  要求：
 
 举例： Ex：
 
+![](./assets/500e40d9-84c8-44bb-acab-bfe686a48949.png)
+
+FB TIA with follower.
+三个问题：stable? Noise? Gain?
+
