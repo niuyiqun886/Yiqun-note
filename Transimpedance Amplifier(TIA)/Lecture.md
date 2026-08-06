@@ -262,7 +262,9 @@ $$
 Opamp → 1st order approx:
 
 $$
-R_{T} = \frac{-R_{F} A_{0} \omega_{0} \omega_{i}}{S^2 + (\omega_{0} + \omega_{i})}
+\begin(gather)
+R_{T} = \frac{-R_{F} A_{0} \omega_{0} \omega_{i}}{S^2 + S (\omega_{0} + \omega_{i}) +(A_{0} + 1)\omega_{0} \omega_{i}} = \frac{K_{}}{}
+\begin(gather)
 $$
 
 
