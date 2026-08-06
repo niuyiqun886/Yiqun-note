@@ -259,7 +259,7 @@ $$
 
 输入等效电容和电阻 $R_{F}$  组成的 $\omega_{i}$  
 
-Opamp → 1st order approx: 条件
+Opamp → 1st order approx: 条件 $\omega_{0} \ll \omega_{i} < GBW$  
 
 $$
 \begin{gather}
