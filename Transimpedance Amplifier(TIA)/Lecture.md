@@ -291,7 +291,12 @@ Bandwidth entend in a cost of peaking.
 
 Modified FB TIA改进：
 
+![](./assets/b121524e-66f2-4da3-a82a-7a66b3668c60.png)
 
-
-
+$$
+\begin{gather}
+\omega_{i} \triangleq \frac{1}{R_{F} C_{in}} \\
+\omega_{F} \triangleq \frac{1}{R_{F} C_{F}}
+\end{gather}
+$$
 
