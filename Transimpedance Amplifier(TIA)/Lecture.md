@@ -286,9 +286,10 @@ peaking appears for $Q > \frac{1}{2}$
 
 这样的peaking是不能接受的，做的时候需要Q很小，
 
+==所以采用shunt-shunt结构的问题：==
+Bandwidth entend in a cost of peaking.
 
-
-
+改进：
 
 
 
