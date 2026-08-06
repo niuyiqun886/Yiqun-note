@@ -218,7 +218,7 @@ Low Output-resistance to properly drive  the subsequent blocks.
 
 ==Feedback TIA(shunt-shunt)==
 
-![](./assets/d6bc18b3-9ef5-43b7-b95f-3b5dd521917c.png)
+![](./assets/244020c0-e87d-44eb-905d-c15bb095faa0.png)
 
 （a）Low freq：
 其中  $G_{m}R_{F} \gg 1$  ;  $G_{m}R_{out} \gg 1$  
@@ -230,13 +230,19 @@ R_{T} = \frac{V_{out}}{I_{in}} = \frac{R_{out} (1 - G_{m} R_{F})}{1 + G_{m} R_{o
 \end{gather}
 $$
 
+（b）input-impedance
+输入端  $I_{in} \to I_{t}$  $V_{in} \to V_{t}$  ,
+
+$$
+\frac{V_{out}}{R_{out}} + G_{m}V_{t} = I_{t} = \frac{(V_{t} - V_{out})}{R_{F}}
+$$
+
+$$
+R_{in} = \frac{R_{F}(1 + \frac{R_{F}}{R_{out}})}{(\frac{R_{F}}{R_{out}} + G_{m} R_{F})} \approx \frac{1}{G_{m}}
+$$
 
 
-
-
-
-
-
+（b）output-impedance
 
 
 
