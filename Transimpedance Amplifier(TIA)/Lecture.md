@@ -242,11 +242,13 @@ R_{in} = \frac{R_{F}(1 + \frac{R_{F}}{R_{out}})}{(\frac{R_{F}}{R_{out}} + G_{m} 
 $$
 
 
-（b）output-impedance
+（c）output-impedance
 
 ![](./assets/9b010047-e3bf-4b28-a3fe-2e96fa50fc27.png)
 
-
+$$
+R_{out} = \frac{V_{t}}{I_{t}} = \frac{1}{G_{m}} \parallel R_{out} \approx \frac{1}{G_{m}}
+$$
 
 
 
