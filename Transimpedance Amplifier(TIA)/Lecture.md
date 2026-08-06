@@ -274,7 +274,7 @@ $$
 ![](./assets/f8bccf4e-bb22-4e96-a6b9-2cd679c19df8.png)
 
 
-![](./assets/a884a904-6a88-4da4-a4b8-11390c5f3c1d.png)
+![](./assets/55f08421-146e-44c8-8c0d-2808c8ad6ddb.png)
 
 peaking appears for $Q > \frac{1}{2}$  
 
