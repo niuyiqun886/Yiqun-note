@@ -255,10 +255,15 @@ $$
 将TIA的放大器想成一个一阶的放大器：如下图
 
 
-![](./assets/434e55cc-006d-470b-a29b-20944d3ad501.png)
+![](./assets/23a58de6-f634-4181-a26e-7c474f95bac9.png)
 
+输入等效电容和电阻 $R_{F}$  组成的 $\omega_{i}$  
 
+Opamp → 1st order approx:
 
+$$
+
+$$
 
 
 
