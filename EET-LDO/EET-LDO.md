@@ -106,17 +106,29 @@ T：密勒环路增益； 当 $T = \infty$ 时 $A_{\infty}$  是理想的闭环�
 前一项反映了极点的影响，后一项的d反映了前馈的零点影响，极点准单数零点不准。
 [^1]
 
+第一步先求解  $A_{\infty}$  
+
+![](./assets/9c22af5d-c3bc-4e22-b302-4ba9f28a73aa.png)
+
+
+![](./assets/057665c8-db1b-49bd-a846-db7e7b9cc1fe.png)
+
+
+如图所示：可得
+
+$$
+\begin{gather}
+g_{m1}(V_{in} - 0) = (0 - V_{0}) S C_{m1} \\ 
+\frac{V_{0}}{V_{in}} = -\frac{g_{m1}}{S C_{m1}}
+\end{gather}
+$$
+
+
 
 
 $$
 T = \frac{-g_{m} \cdot R_{L} \parallel \frac{1}{SC_{L}}}{\frac{1}{SC_{p1}} + R_{L} \parallel \frac{1}{SC_{L}}} \cdot R_{o1} \parallel \frac{1}{SC_{p1}}
 $$
-
-
-
-
-
-
 
 
 
