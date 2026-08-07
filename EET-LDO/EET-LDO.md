@@ -136,9 +136,13 @@ V_{x} (- g_{mL}) \frac{(R_{L} \parallel \frac{1}{S C_{L}}) \cdot R_{o1} \paralle
 \end{gather}
 $$
 
+化简：条件  $C_{L} \gg C_{m1} \gg C_{p1}$
 
-
-
+$$
+\frac{V_y}{V_x}=\frac{g_{mL}R_{o1}R_L\,sC_{m1}}
+{1+s\left[R_{o1}\left(C_{p1}+C_{m1}\right)+R_L\left(C_L+C_{m1}\right)\right]
++s^{2}R_{o1}R_{L} C_{L} C_{m1}}
+$$
 
 
 
