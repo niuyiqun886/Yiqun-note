@@ -164,6 +164,8 @@ $$
 \frac{T}{1 + T} = \frac{g_{mL}R_{L}}{1 + g_{mL}R_{L} + s R_{L} C_{L}} \approx \frac{1}{1 + s \frac{C_{L}}{g_{mL}}}
 $$
 
+注：
+
 
 
 
