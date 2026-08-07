@@ -122,12 +122,15 @@ g_{m1}(V_{in} - 0) = (0 - V_{0}) S C_{m1} \\
 \frac{V_{0}}{V_{in}} = -\frac{g_{m1}}{S C_{m1}}
 \end{gather}
 $$
+
 求T：密勒环路增益
 
 ![](./assets/eaa9c9d0-750f-48b8-a291-ec4d400c3c3c.png)
 
 $$
+\begin{gather}
 V_{x} (- g_{mL}) \frac{(R_{L} \parallel \frac{1}{S C_{L}}) \cdot R_{o1} \parallel \frac{1}{S C_{p1}}} {(R_{L} \parallel \frac{1}{S C_{L}})(\frac{1}{S C_{m1}} + R_{o1} \parallel \frac{1}{S C_{p1}})} = -V_{y}
+\end{gather}
 $$
 
 
