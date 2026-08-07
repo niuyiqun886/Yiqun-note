@@ -143,6 +143,15 @@ $$
 {1+s\left[R_{o1}\left(C_{p1}+C_{m1}\right)+R_L\left(C_L+C_{m1}\right)\right]
 +s^{2}R_{o1}R_{L} C_{L} C_{m1}}
 $$
+再次化简：条件 $C_{L} \gg C_{m1} \gg C_{p1}$  可以去掉  $R_{o1} C_{p1}$  和  $R_{L} C_{m1}$  
+
+$$
+\frac{V_y}{V_x}=\frac{g_{mL}R_{o1}R_L\,sC_{m1}} {1+s (R_{o1} C_{m1}+R_{L} C_{L}) + s^{2}R_{o1}R_{L} C_{L} C_{m1}} = \frac{g_{mL}R_{o1}R_L\,sC_{m1}} {(1+s R_{o1} C_{m1}) (1 + s R_{L} C_{L})}
+$$
+
+
+
+
 
 
 
