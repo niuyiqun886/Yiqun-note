@@ -127,6 +127,7 @@ $$
 
 ![](./assets/eaa9c9d0-750f-48b8-a291-ec4d400c3c3c.png)
 
+
 $$
 \begin{gather}
 V_{x} (- g_{mL}) \frac{(R_{L} \parallel \frac{1}{S C_{L}}) \cdot R_{o1} \parallel \frac{1}{S C_{p1}}} {(R_{L} \parallel \frac{1}{S C_{L}}) \parallel (\frac{1}{S C_{m1}} + R_{o1} \parallel \frac{1}{S C_{p1}})} = -V_{y}  \\[12pt]
@@ -143,13 +144,14 @@ $$
 {1+s\left[R_{o1}\left(C_{p1}+C_{m1}\right)+R_L\left(C_L+C_{m1}\right)\right]
 +s^{2}R_{o1}R_{L} C_{L} C_{m1}}
 $$
+
 再次化简：条件 $C_{L} \gg C_{m1} \gg C_{p1}$  可以去掉  $R_{o1} C_{p1}$  和  $R_{L} C_{m1}$  
 
 $$
 \frac{V_y}{V_x}=\frac{g_{mL}R_{o1}R_L\,sC_{m1}} {1+s (R_{o1} C_{m1}+R_{L} C_{L}) + s^{2}R_{o1}R_{L} C_{L} C_{m1}} = \frac{g_{mL}R_{o1}R_L\,sC_{m1}} {(1+s R_{o1} C_{m1}) (1 + s R_{L} C_{L})}
 $$
 
-
+上式很清楚的看出系统的两个极点。
 
 
 
