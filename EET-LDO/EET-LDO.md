@@ -129,7 +129,7 @@ $$
 
 $$
 \begin{gather}
-V_{x} (- g_{mL}) \frac{(R_{L} \parallel \frac{1}{S C_{L}}) \cdot R_{o1} \parallel \frac{1}{S C_{p1}}} {(R_{L} \parallel \frac{1}{S C_{L}})(\frac{1}{S C_{m1}} + R_{o1} \parallel \frac{1}{S C_{p1}})} = -V_{y}
+V_{x} (- g_{mL}) \frac{(R_{L} \parallel \frac{1}{S C_{L}}) \cdot R_{o1} \parallel \frac{1}{S C_{p1}}} {(R_{L} \parallel \frac{1}{S C_{L}}) \parallel (\frac{1}{S C_{m1}} + R_{o1} \parallel \frac{1}{S C_{p1}})} = -V_{y}
 \end{gather}
 $$
 
