@@ -127,7 +127,7 @@ $$
 ![](./assets/eaa9c9d0-750f-48b8-a291-ec4d400c3c3c.png)
 
 $$
-V_{x} (- g_{mL}) \cdot (R_{L} \parallel \frac{1}{S C_{L}})(\frac{1}{S C_{m1}} + R_{o1} \parallel \frac{1}{S C_{p1}})
+V_{x} (- g_{mL}) \frac{(R_{L} \parallel \frac{1}{S C_{L}}) \cdot R_{o1} \parallel \frac{1}{S C_{p1}}} {(R_{L} \parallel \frac{1}{S C_{L}})(\frac{1}{S C_{m1}} + R_{o1} \parallel \frac{1}{S C_{p1}})} = -V_{y}
 $$
 
 
