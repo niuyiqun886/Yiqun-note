@@ -130,7 +130,7 @@ $$
 
 $$
 \begin{gather}
-V_{x} (- g_{mL}) \frac{(R_{L} \parallel \frac{1}{S C_{L}}) \cdot R_{o1} \parallel \frac{1}{S C_{p1}}} {(R_{L} \parallel \frac{1}{S C_{L}}) \parallel (\frac{1}{S C_{m1}} + R_{o1} \parallel \frac{1}{S C_{p1}})} = -V_{y}  \\[12pt]
+V_{x} (- g_{mL}) \frac{(R_{L} \parallel \frac{1}{s C_{L}}) \cdot R_{o1} \parallel \frac{1}{s C_{p1}}} {(R_{L} \parallel \frac{1}{s C_{L}}) \parallel (\frac{1}{s C_{m1}} + R_{o1} \parallel \frac{1}{s C_{p1}})} = -V_{y}  \\[12pt]
 \frac{V_y}{V_x}=\frac{g_{mL}R_{o1}R_L\,sC_{m1}}
 {1+s\left[R_{o1}\left(C_{p1}+C_{m1}\right)+R_L\left(C_L+C_{m1}\right)\right]
 +s^{2}R_{o1}R_L\left(C_{p1}C_L+C_{p1}C_{m1}+C_LC_{m1}\right)}
@@ -152,7 +152,11 @@ T = \frac{V_y}{V_x}=\frac{g_{mL}R_{o1}R_L\,sC_{m1}} {1+s (R_{o1} C_{m1}+R_{L} C_
 $$
 
 上式很清楚的看出系统的两个极点。
+当频率 $\omega \gg \frac{1}{R_{o} C_{m1}}$  时，$1 + s R_{o1}C_{m1} \to s R_{o1}C_{m1}$  ，分子分母约掉后：
 
+$$
+T = \frac{g_{mL}R_L} {1 + s R_{L} C_{L}}
+$$
 
 
 
