@@ -164,13 +164,103 @@ $$
 \frac{T}{1 + T} = \frac{g_{mL}R_{L}}{1 + g_{mL}R_{L} + s R_{L} C_{L}} \approx \frac{1}{1 + s \frac{C_{L}}{g_{mL}}}
 $$
 
-注：
+==注：==
 
 
+$$
+A = A_\infty \cdot \frac{T}{1+T}
+$$
+
+$$
+A_\infty = \frac{V_o}{V_{in}} = -\frac{g_{m1}}{sC_{m1}}
+$$
+
+$$
+T = \frac{V_y}{V_x}
+= \frac{g_{mL}R_{o1}R_L\,sC_{m1}}{1+s\left(R_{o1}C_{m1}+R_LC_L\right)+s^{2}R_{o1}R_LC_LC_{m1}}
+= \frac{g_{mL}R_{o1}R_L\,sC_{m1}}{\left(1+sR_{o1}C_{m1}\right)\left(1+sR_LC_L\right)}
+$$
+
+2. 代入化简
+
+记 $N=g_{mL}R_{o1}R_L\,sC_{m1}$，$D=(1+sR_{o1}C_{m1})(1+sR_LC_L)$，则
+
+$$
+D+N = 1+s\left[R_{o1}C_{m1}+R_LC_L+\underbrace{g_{mL}R_{o1}R_LC_{m1}}_{\text{Miller feedback}}\right]+s^{2}R_{o1}R_{L} C_{L}C_{m1}
+$$
+
+$$
+\frac{T}{1+T}=\frac{N}{D+N}=\frac{g_{mL}R_{o1}R_L\,sC_{m1}}{D+N}
+$$
+
+**关键一步**：$A_\infty$ 分母上的 $sC_{m1}$ 与此处分子上的 $sC_{m1}$ 正好约掉。
+
+3. 结果
+
+$$
+\boxed{\;A(s)=\frac{-\,g_{m1}g_{mL}R_{o1}R_L}{1+s\left[g_{mL}R_{o1}R_LC_{m1}+R_{o1}C_{m1}+R_LC_L\right]+s^{2}R_{o1}R_LC_LC_{m1}}\;}
+$$
+
+$s\to 0$ 时 $A\to -g_{m1}g_{mL}R_{o1}R_L=-A_{v0}$ ，正是两级放大器的直流增益。积分器形式的 $A_\infty$  被 $T/(1+T)$ 的原点零点抵消掉了——这也是 DOA 要先把 $T$ 的原点零点与 $1/R_{o1}C_{m1}$ 极点对消看清楚的原因。
+
+4. 新极点位置
+
+$b_1'=g_{mL}R_{o1}R_LC_{m1}+R_{o1}C_{m1}+R_LC_L$，$b_2=R_{o1}R_LC_LC_{m1}$。
+
+由于 $g_{mL}R_L\gg 1$，$b_1'$ 被 Miller 项主导：
+
+$$
+p_1'\approx-\frac{1}{b_1'}\approx-\frac{1}{g_{mL}R_{o1}R_LC_{m1}}
+$$
+
+$$
+p_2'\approx-\frac{b_1'}{b_2}\approx-\frac{g_{mL}R_{o1}R_LC_{m1}}{R_{o1}R_LC_LC_{m1}}=-\frac{g_{mL}}{C_L}
+$$
+
+即
+
+$$
+A(s)\approx\frac{-A_{v0}}{\left(1+s\,g_{mL}R_{o1}R_LC_{m1}\right)\left(1+s\,C_L/g_{mL}\right)}
+$$
+
+> [!note] 精度说明
+> 这两个时间常数的**乘积**严格等于 $b_2$，只有它们的**和**是近似的（丢掉了 $R_{o1}C_{m1}+R_LC_L$）。
+
+5. 与开环极点对照
+
+| | 开环 $T$ | 闭环 $A$ | 移动倍数 |
+| --- | --- | --- | --- |
+| 主极点 | $\dfrac{1}{R_{o1}C_{m1}}$ | $\dfrac{1}{g_{mL}R_LR_{o1}C_{m1}}$ | 下移 $g_{mL}R_L$ |
+| 次极点 | $\dfrac{1}{R_LC_L}$ | $\dfrac{g_{mL}}{C_L}$ | 上移 $g_{mL}R_L$ |
+
+同一个因子、方向相反，乘积 $=1/b_2$ 不变——这就是极点分裂，也是 $p_1'p_2'=p_1p_2$ 的完整闭环版本。
+
+6. 自洽检验
+
+$$
+\mathrm{GBW}=A_{v0}\cdot\left|p_1'\right|=\frac{g_{m1}g_{mL}R_{o1}R_L}{g_{mL}R_{o1}R_LC_{m1}}=\frac{g_{m1}}{C_{m1}}
+$$
+
+相位裕度由下式决定：
+
+$$
+\frac{\left|p_2'\right|}{\mathrm{GBW}}=\frac{g_{mL}C_{m1}}{g_{m1}C_L}
+$$
+
+## 7. 需要留意：RHP 零点去哪了
+
+> [!warning] 这个结果里没有 $z=+g_{mL}/C_{m1}$
+> 渐近增益模型的完整形式是 $A=A_\infty\dfrac{T}{1+T}+A_0\dfrac{1}{1+T}$。第二项（把受控源 $g_{mL}$ 置零后经 $C_{m1}$ 的直通路径）被省略了，而 RHP 零点恰恰藏在 $A_0$ 里。
+> 分析极点分裂与相位裕度的主体部分用上式没问题；但讨论 **SMCNR（调零电阻）** 时必须把 $A_0$ 项补回来——那正是调零电阻要对付的东西。
 
 
+后续需要添加后一项的求解过程
 
+使用公式
 
+$$
+H_(s) = A_{\infty} \frac{}{}
+$$
 
 
 
