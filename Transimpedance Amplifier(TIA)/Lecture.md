@@ -356,3 +356,7 @@ Drawbacks（缺点）:
 1.  $I_{b}$   parasitics cap 
 2.  Source follower
 3. May need large supply (  $\gg 1.8V$ )
+
+
+
+
