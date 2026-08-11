@@ -189,19 +189,19 @@ $$
 如图：可得
 
 $$
--g_{mL} V_{x} = (-V_{y} - 0) sC_{m1}
+-g_{mL} V_{x} = (0 - (-V_{y})) sC_{m1}
 $$
 可得零点公式：
 
 $$
-T_{n} = \frac{V_{y}}{V_{x}} = \frac{g_{mL}}{sC_{m1}} ----(2-7)
+T_{n} = \frac{V_{y}}{V_{x}} = - \frac{g_{mL}}{sC_{m1}} ----(2-7)
 $$
 
 将公式(2-5)，(2-6,)，(2-7) 带入完整的公式：
 
 $$
 \begin{gather}
-H(s) = A_{\infty} \frac{1 + \frac{1}{T_{n}}}{1 + \frac{1}{T}} = -\frac{g_{m1}}{sC_{m1}} \cdot \frac{1 + \frac{1}{\frac{g_{mL}}{sC_{m1}}}}{1 + \frac{1}{\frac{g_{mL}}{s C_{L}}}} = - \underbrace{\frac{g_{m1}}{sC_{m1}}}_{\text{GBW}} \cdot \frac{1 + \frac{sC_{m1}}{g_{mL}}}{1 + \frac{s C_{L}}{g_{mL}}} ----(2-8)
+H(s) = A_{\infty} \frac{1 + \frac{1}{T_{n}}}{1 + \frac{1}{T}} = -\frac{g_{m1}}{sC_{m1}} \cdot \frac{1 - \frac{1}{\frac{g_{mL}}{sC_{m1}}}}{1 + \frac{1}{\frac{g_{mL}}{s C_{L}}}} = - \underbrace{\frac{g_{m1}}{sC_{m1}}}_{\text{GBW}} \cdot \frac{1 - \frac{sC_{m1}}{g_{mL}}}{1 + \frac{s C_{L}}{g_{mL}}} ----(2-8)
 \end{gather}
 $$
 
@@ -209,10 +209,14 @@ $$
 >上式表示了电路的高频等效极点和零点：
 > 单位增益带宽： $GBW = \frac{g_{m1}}{C_{m1}}$
 > 高频等效极点： $p = -\frac{g_{mL}}{C_L}$
-> 高频等效零点： $z = -\frac{g_{mL}}{C_{m1}}$
+> 高频等效零点： $z = \frac{g_{mL}}{sC_{m1}}$
 
 
-==**注：**==
+
+
+
+==注：==
+
 
 $$
 A = A_\infty \cdot \frac{T}{1+T}
@@ -294,42 +298,25 @@ $$
 \frac{\left|p_2'\right|}{\mathrm{GBW}}=\frac{g_{mL}C_{m1}}{g_{m1}C_L}
 $$
 
+## 7. 需要留意：RHP 零点去哪了
+
+> [!warning] 这个结果里没有 $z=+g_{mL}/C_{m1}$
+> 渐近增益模型的完整形式是 $A=A_\infty\dfrac{T}{1+T}+A_0\dfrac{1}{1+T}$。第二项（把受控源 $g_{mL}$ 置零后经 $C_{m1}$ 的直通路径）被省略了，而 RHP 零点恰恰藏在 $A_0$ 里。
+> 分析极点分裂与相位裕度的主体部分用上式没问题；但讨论 **SMCNR（调零电阻）** 时必须把 $A_0$ 项补回来——那正是调零电阻要对付的东西。
 
 
+后续需要添加后一项的求解过程
 
+使用公式：
 
+$$
+H(s) = A_{\infty} \frac{1 + \frac{1}{T_{n}}}{1 + \frac{1}{T}}
+$$
 
+其中 $T_{n}$  就是输入存在的时候，输出虚地时候求出来的环路增益。
+ $T$  就是输入为0输出存在的时候的环路增益。
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+这样就补全了零极点的所有内容。
 
 
 
