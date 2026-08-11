@@ -99,7 +99,7 @@ $$
 上图可以变为：模块H和反馈元件 $C_{m1}$  ，传递函数根据闭环增益等式表示为：
 
 $$
-\frac{V_{0}(s)}{V_{in}(s)} \approx A_{\infty} \cdot \frac{T}{1 + T} + \frac{d}{1 + T} \approx A_{\infty} \cdot \frac{T}{1 + T}
+\frac{V_{0}(s)}{V_{in}(s)} \approx A_{\infty} \cdot \frac{T}{1 + T} + \frac{d}{1 + T} \approx A_{\infty} \cdot \frac{T}{1 + T} ----(2-4)
 $$
 
 T：密勒环路增益； 当 $T = \infty$ 时 $A_{\infty}$  是理想的闭环增益；d是 $T = 0$ 时的直接前馈
@@ -119,7 +119,7 @@ T：密勒环路增益； 当 $T = \infty$ 时 $A_{\infty}$  是理想的闭环�
 $$
 \begin{gather}
 g_{m1}(V_{in} - 0) = (0 - V_{0}) S C_{m1} \\[10pt]
-A_{\infty} = \frac{V_{0}}{V_{in}} = -\frac{g_{m1}}{S C_{m1}}
+A_{\infty} = \frac{V_{0}}{V_{in}} = -\frac{g_{m1}}{S C_{m1}} ----(2-5)
 \end{gather}
 $$
 
@@ -163,12 +163,20 @@ $$
 故：
 
 $$
-\frac{T}{1 + T} = \frac{g_{mL}R_{L}}{1 + g_{mL}R_{L} + s R_{L} C_{L}} \approx \frac{1}{1 + s \frac{C_{L}}{g_{mL}}}
+\frac{T}{1 + T} = \frac{g_{mL}R_{L}}{1 + g_{mL}R_{L} + s R_{L} C_{L}} \approx \frac{1}{1 + s \frac{C_{L}}{g_{mL}}}----(2-6)
 $$
 
 > [!note] 结果说明 
 > 这个结果和简化电路图的结果是一样的 $\frac{T}{1 + T} = \frac{1}{1 + \frac{1}{T}}$
->[]()
+> 如下链接，直接计算出(2-6)的结果：
+>[[EET的使用.md#^ffb194]]
+
+
+
+
+
+
+
 
 
 ==注：==

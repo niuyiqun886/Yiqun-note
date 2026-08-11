@@ -21,7 +21,7 @@ https://candied-place-2bd.notion.site/Analysis-of-multistage-amplifier-frequency
 ![](./assets/image-4.png)
 
 
-![](./assets/image-5.png)
+![](./assets/image-5.png) ^ffb194
 
 
 ![](./assets/image-6.png)
