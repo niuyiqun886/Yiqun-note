@@ -91,7 +91,7 @@ $$
 p_{1}' \cdot p_{2}' =  \frac{1}{ g_{m} R_{o1} R_{o2} C_{m}} \cdot \frac{g_{m} C_{m}}{C_{p1} C_{p2}} = \frac{1}{R_{o1}C_{p1}} \cdot \frac{1}{R_{o2}C_{p2}} = p_{1} \cdot p_{2}
 $$
 
-2.1应用负反馈的方法去密勒补偿
+### 2.1应用负反馈的方法去密勒补偿
 没有其他提示的话：下面假设  $g_{mi} \gg 1; C_{mi},C_{L} \gg C_{pi}$  
 
 ![600](./assets/7be59180-952f-4f59-9bfd-8f7250356c82.png)
@@ -127,6 +127,7 @@ $$
 
 ![](./assets/eaa9c9d0-750f-48b8-a291-ec4d400c3c3c.png)
 
+这里的电流方向问题： $V_{x} \cdot (-g_{m})$  方向是向外流，然后就是电阻电容的分压问题了。   
 
 $$
 \begin{gather}
@@ -158,11 +159,17 @@ $$
 T = \frac{g_{mL}R_L} {1 + s R_{L} C_{L}} \xrightarrow{\omega \gg \frac{1}{R_{L} C_{L}}} \frac{g_{mL}}{s C_{L}}
 
 $$
+
 故：
 
 $$
 \frac{T}{1 + T} = \frac{g_{mL}R_{L}}{1 + g_{mL}R_{L} + s R_{L} C_{L}} \approx \frac{1}{1 + s \frac{C_{L}}{g_{mL}}}
 $$
+
+> [!note] 结果说明 
+> 这个结果和简化电路图的结果是一样的 $\frac{T}{1 + T} = \frac{1}{1 + \frac{1}{T}}$
+>[]()
+
 
 ==注：==
 
