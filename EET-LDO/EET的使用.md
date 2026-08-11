@@ -10,7 +10,7 @@ https://candied-place-2bd.notion.site/Analysis-of-multistage-amplifier-frequency
 
 ![](./assets/image-1.png)
 
-**SMC(Simple Miller Compensation)**
+**SMC(Simple Miller Compensation)** ^969895
 
 ![](./assets/image-2.png)
 
@@ -18,10 +18,10 @@ https://candied-place-2bd.notion.site/Analysis-of-multistage-amplifier-frequency
 ![](./assets/image-3.png)
 
 
-![](./assets/image-4.png)
+![](./assets/image-4.png) ^f096ef
 
 
-![](./assets/image-5.png) ^ffb194
+![](./assets/image-5.png)
 
 
 ![](./assets/image-6.png)
