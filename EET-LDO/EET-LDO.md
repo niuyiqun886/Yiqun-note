@@ -144,7 +144,7 @@ V_{x} (- g_{mL}) \frac{(R_{L} \parallel \frac{1}{s C_{L}}) \cdot R_{o1} \paralle
 \end{gather}
 $$
 
-化简：条件  $C_{L} \gg C_{m1} \gg C_{p1}$
+化简：条件  $C_{L} \gg C_{m1} \gg C_{p1}$ ^61c425
 
 $$
 \frac{V_y}{V_x}=\frac{g_{mL}R_{o1}R_L\,sC_{m1}}
@@ -319,9 +319,13 @@ cadence 中仿真：
 ![](./assets/83e9968609a8c62d19332da5bfe7e774.jpg)
 
 >[!analy] 分析
->	1.GBW没达到500M。首先是
+>1.GBW没达到500M，下次需要给出余量要100M左右。
+>2.第二极点频率没达到2倍，主要是公式 [[#^61c425]]  并不是完全满足，这个条件。
+>3.零点几乎完全满足条件了。
 
 
+
+## chapter3
 
 
 
