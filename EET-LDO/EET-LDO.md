@@ -149,32 +149,32 @@ $$
 $$
 \frac{V_y}{V_x}=\frac{g_{mL}R_{o1}R_L\,sC_{m1}}
 {1+s\left[R_{o1}\left(C_{p1}+C_{m1}\right)+R_L\left(C_L+C_{m1}\right)\right]
-+s^{2}R_{o1}R_{L} C_{L} C_{m1}}
++s^{2}R_{o1}R_{L} C_{L} C_{m1}}----(2-6-1)
 $$
 
 再次化简：条件 $C_{L} \gg C_{m1} \gg C_{p1}$  可以去掉  $R_{o1} C_{p1}$  和  $R_{L} C_{m1}$  
 
 $$
-T = \frac{V_y}{V_x}=\frac{g_{mL}R_{o1}R_L\,sC_{m1}} {1+s (R_{o1} C_{m1}+R_{L} C_{L}) + s^{2}R_{o1}R_{L} C_{L} C_{m1}} = \frac{g_{mL}R_{o1}R_L\,sC_{m1}} {(1+s R_{o1} C_{m1}) (1 + s R_{L} C_{L})}
+T = \frac{V_y}{V_x}=\frac{g_{mL}R_{o1}R_L\,sC_{m1}} {1+s (R_{o1} C_{m1}+R_{L} C_{L}) + s^{2}R_{o1}R_{L} C_{L} C_{m1}} = \frac{g_{mL}R_{o1}R_L\,sC_{m1}} {(1+s R_{o1} C_{m1}) (1 + s R_{L} C_{L})}----(2-6-2)
 $$
 
 上式很清楚的看出系统的两个极点。
 当频率 $\omega \gg \frac{1}{R_{o} C_{m1}}$  时，$1 + s R_{o1}C_{m1} \to s R_{o1}C_{m1}$  ，分子分母约掉后：
 
 $$
-T = \frac{g_{mL}R_L} {1 + s R_{L} C_{L}} \xrightarrow{\omega \gg \frac{1}{R_{L} C_{L}}} \frac{g_{mL}}{s C_{L}}
+T = \frac{g_{mL}R_L} {1 + s R_{L} C_{L}} \xrightarrow{\omega \gg \frac{1}{R_{L} C_{L}}} \frac{g_{mL}}{s C_{L}}----(2-6-3)
 
 $$
 
 故：
 
 $$
-\frac{T}{1 + T} = \frac{g_{mL}R_{L}}{1 + g_{mL}R_{L} + s R_{L} C_{L}} \approx \frac{1}{1 + s \frac{C_{L}}{g_{mL}}}----(2-6)
+\frac{T}{1 + T} = \frac{g_{mL}R_{L}}{1 + g_{mL}R_{L} + s R_{L} C_{L}} \approx \frac{1}{1 + s \frac{C_{L}}{g_{mL}}}----(2-6-4)
 $$
 
 > [!note] 结果说明 
 > 这个结果和简化电路图的结果是一样的 $\frac{T}{1 + T} = \frac{1}{1 + \frac{1}{T}}$
-> 如下链接，直接计算出(2-6)的结果：
+> 如下链接，直接计算出(2-6-4)的结果：
 >[[EET的使用.md#^f096ef]]
 >这里就是计算出了高频的等效极点的位置。
 
