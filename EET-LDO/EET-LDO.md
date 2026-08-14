@@ -206,6 +206,19 @@ H(s) = A_{\infty} \frac{1 + \frac{1}{T_{n}}}{1 + \frac{1}{T}} = -\frac{g_{m1}}{s
 \end{gather}
 $$
 
+没化简的结果：
+
+$$
+\begin{gather}
+T = \frac{g_{mL}R_{o1}R_L\,sC_{m1}}
+{1+s\left[R_{o1}\left(C_{p1}+C_{m1}\right)+R_L\left(C_L+C_{m1}\right)\right]
++s^{2}R_{o1}R_L\left(C_{p1}C_L+C_{p1}C_{m1}+C_LC_{m1}\right)}
+
+\end{gather}
+$$
+
+
+
 >[!summary] 
 >上式表示了电路的高频等效极点和零点：
 > 单位增益带宽： $GBW = \frac{g_{m1}}{C_{m1}}$
