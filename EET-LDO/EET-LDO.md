@@ -212,18 +212,33 @@ $$
 \begin{gather}
 T = \frac{g_{mL}R_{o1}R_L\,sC_{m1}}
 {1+s\left[R_{o1}\left(C_{p1}+C_{m1}\right)+R_L\left(C_L+C_{m1}\right)\right]
-+s^{2}R_{o1}R_L\left(C_{p1}C_L+C_{p1}C_{m1}+C_LC_{m1}\right)}
-
++s^{2}R_{o1}R_L\left(C_{p1}C_L+C_{p1}C_{m1}+C_LC_{m1}\right)} \\[4pt]
+T_n = -\frac{g_{mL}}{sC_{m1}} \\[4pt]
+A_{\infty} = -\frac{g_{m1}}{s C_{m1}}
 \end{gather}
+$$
+
+带入公式： 这个是完整的公式(没化简过的)
+
+$$
+\begin{align}
+A(s) &= -\frac{g_{m1}}{s C_{m1}} \frac{1 - \frac{sC_{m1}}{g_{mL}}}{1 + \frac
+{1+s[R_{o1}(C_{p1}+C_{m1})+R_L(C_L+C_{m1})]
++s^{2}R_{o1}R_L(C_{p1}C_L+C_{p1}C_{m1}+C_LC_{m1})}{g_{mL}R_{o1}R_L\,sC_{m1}}}\\[4pt]
+&=-\frac{g_{m1}g_{mL}R_{o1}R_L(1 - \frac{sC_{m1}}{g_{mL}})}{
+1+ sg_{mL}R_{o1}R_L\,C_{m1} + s[R_{o1}(C_{p1}+C_{m1})+R_L(C_L+C_{m1})]
++s^{2}R_{o1}R_L(C_{p1}C_L+C_{p1}C_{m1}+C_LC_{m1})}
+\end{align}
 $$
 
 
 
+
 >[!summary] 
->上式表示了电路的高频等效极点和零点：
+>上式表示了电路的高频等效极点和零点：$H(s) = A_{\infty} \frac{1 + \frac{1}{T_{n}}}{1 + \frac{1}{T}}$
 > 单位增益带宽： $GBW = \frac{g_{m1}}{C_{m1}}$
-> 高频等效极点： $p = -\frac{g_{mL}}{C_L}$
-> 高频等效零点： $z = \frac{g_{mL}}{sC_{m1}}$
+> 高频等效极点： $p = \frac{g_{mL}}{C_L}$
+> 高频等效零点： $z = -\frac{g_{mL}}{sC_{m1}}$
 
 
 
