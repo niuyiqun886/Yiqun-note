@@ -135,9 +135,12 @@ $$
 >[!question] 
 >这里的电流方向问题： $V_{x} \cdot (-g_{m})$  方向是向外流，然后就是电阻电容的分压问题了。   
 
+
+==这里公式写错了：明天该下==
+
 $$
 \begin{gather}
-V_{x} (- g_{mL}) \frac{(R_{L} \parallel \frac{1}{s C_{L}}) \cdot R_{o1} \parallel \frac{1}{s C_{p1}}} {(R_{L} \parallel \frac{1}{s C_{L}}) \parallel (\frac{1}{s C_{m1}} + R_{o1} \parallel \frac{1}{s C_{p1}})} = -V_{y}  \\[12pt]
+V_{x} (- g_{mL}) \frac{(R_{L} \parallel \frac{1}{s C_{L}}) \cdot R_{o1} \parallel \frac{1}{s C_{p1}}} {(R_{L} \parallel \frac{1}{s C_{L}}) + (\frac{1}{s C_{m1}} + R_{o1} \parallel \frac{1}{s C_{p1}})} = -V_{y}  \\[12pt]
 \frac{V_y}{V_x}=\frac{g_{mL}R_{o1}R_L\,sC_{m1}}
 {1+s\left[R_{o1}\left(C_{p1}+C_{m1}\right)+R_L\left(C_L+C_{m1}\right)\right]
 +s^{2}R_{o1}R_L\left(C_{p1}C_L+C_{p1}C_{m1}+C_LC_{m1}\right)}
