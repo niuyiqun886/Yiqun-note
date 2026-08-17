@@ -361,7 +361,7 @@ cadence 中仿真：
 
 $$
 
-V_{x} (- g_{mL}) \frac{(R_{L} \parallel \frac{1}{s C_{L}}) \cdot \frac{1}{s C_{p1}}} {(R_{L} \parallel \frac{1}{s C_{L}}) \parallel (\frac{1}{s C_{m1}} + \frac{1}{s C_{p1}})} = -V_{y}
+V_{x} (- g_{mL}) \frac{(R_{L} \parallel \frac{1}{s C_{L}}) \cdot \frac{1}{s C_{p1}}} {(R_{L} \parallel \frac{1}{s C_{L}}) + (\frac{1}{s C_{m1}} + \frac{1}{s C_{p1}})} = -V_{y}
 $$
 
 
