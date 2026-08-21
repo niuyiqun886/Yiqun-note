@@ -354,16 +354,16 @@ cadence 中仿真：
 
 
 
-## chapter3
+## chapter3 Design Example According to DOA
 
+>[!assumming] 假设
+>1. $g_{mi} r_{o1} \gg 1$  and  $C_{mi},C_{L} \gg C_{pi}$  $GBW \gg \frac{1}{R_{o1} C_{m1}}$ (or  $GBW \gg \frac{1}{R_{o1} C_{p1}}$ for SMCCB ) 
 
+### 3.1 Simple Miller Compensation (SMC)
 
+![](./assets/a16c7b2e-94f0-4c52-a8b4-b54735b9bc92.png)
 
-
-$$
-
-V_{x} (- g_{mL}) \frac{(R_{L} \parallel \frac{1}{s C_{L}}) \cdot \frac{1}{s C_{p1}}} {(R_{L} \parallel \frac{1}{s C_{L}}) + (\frac{1}{s C_{m1}} + \frac{1}{s C_{p1}})} = -V_{y}
-$$
+这里的内容在上一章都算过了，其中有些新的东西：
 
 
 
