@@ -405,8 +405,11 @@ $$
 
 第一步： $A_{\infty}$  
 
+![](./assets/58335feb56d7ca244c1092bbebd31ac1.jpg)
 
-
+$$
+\frac{V_{out}-0}{R_{C} + \frac{1}{sC_{m1}}} = g_{m1} V_{in} \Rightarrow A_{\infty} = \frac{V_{out}}{V_{in}} = g_{m1}(R_{C} + \frac{1}{sC_{m}})
+$$
 
 
 
