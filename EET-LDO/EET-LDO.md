@@ -403,6 +403,8 @@ $$
 
 ### 3.2 Simple Miller Compensation with Nulling Resistor  (SSMCNR)
 
+第一步： $A_{\infty}$  
+
 
 
 
