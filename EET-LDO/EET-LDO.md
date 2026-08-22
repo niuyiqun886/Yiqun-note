@@ -410,7 +410,7 @@ $$
 $$
 \frac{V_{out}-0}{R_{C} + \frac{1}{sC_{m1}}} = g_{m1} V_{in} \Rightarrow A_{\infty} = \frac{V_{out}}{V_{in}} = g_{m1}(R_{C} + \frac{1}{sC_{m}})
 $$
-
+第二步：T 
 
 
 
