@@ -408,7 +408,7 @@ $$
 ![](./assets/58335feb56d7ca244c1092bbebd31ac1.jpg)
 
 $$
-\frac{V_{out}-0}{R_{C} + \frac{1}{sC_{m1}}} = g_{m1} V_{in} \Rightarrow A_{\infty} = \frac{V_{out}}{V_{in}} = g_{m1}(R_{C} + \frac{1}{sC_{m}})
+\frac{V_{out}-0}{R_{C} + \frac{1}{sC_{m1}}} = g_{m1} V_{in} \Rightarrow A_{\infty} = \frac{V_{out}}{V_{in}} = g_{m1}(R_{C} + \frac{1}{sC_{m1}})
 $$
 第二步：T 
 
@@ -435,7 +435,21 @@ $$
 $$
 p_3 \approx \frac{1}{R_C C_{p1}}
 $$
-00
+
+第三步 $T_n$ ：
+
+![](./assets/c8f990ff0e2225143d217a61e5d2972d.jpg)
+
+$$
+T_n = -g_{mL} \cdot (R_C + \frac{1}{sC_{m1}})
+$$
+
+第四步带入公式：
+
+$$
+H(s) = A_{\infty} \cdot \frac{1+\frac{1}{T_n}}{1 + \frac{1}{T}} = g_{m1}(R_{C} + \frac{1}{sC_{m1}}) \cdot \frac{1 + \frac{1}{-g_{mL} \cdot (R_C + \frac{1}{sC_{m1}})}}{1 + \frac{1}{\frac{g_{mL}R_{L} \frac{c_{m1}}{C_{m1} + C_{p1}}}{1 + s[R_L C_L + (R_L + R_C)\frac{C_{m1}C_{p1}}{C_{m1} + C_{p1}}]  + s^2R_L R_C C_L \frac{C_{m1}C_{p1}}{C_{m1} + C_{p1}}} }}
+$$
+
 
 
 
