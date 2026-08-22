@@ -412,10 +412,30 @@ $$
 $$
 第二步：T 
 
+![](./assets/7eb2a395b67369fb5a24697f57efb862.jpg)
 
+求得T未化简：
 
+$$
+T = \frac{g_{mL}R_{L} \frac{c_{m1}}{C_{m1} + C_{p1}}}{1 + s[R_L C_L + (R_L + R_C)\frac{C_{m1}C_{p1}}{C_{m1} + C_{p1}}]  + s^2R_L R_C C_L \frac{C_{m1}C_{p1}}{C_{m1} + C_{p1}}} 
+$$
+又 $C_{m1} \gg C_{p1}$  化简得:
 
+$$
+T = \frac{g_{mL}R_L}{1 + sR_L C_L} \cdot \frac{1}{1+sR_LC_{p1}} 
+$$
 
+当评率较高的时候 $sR_L C_L \gg 1$  化简:
+
+$$
+T = \frac{g_{mL}}{C_L} \cdot \frac{1}{1 + sR_LC_{p1}}  \Rightarrow H \cdot \frac{1}{1 + sR_LC_{p1}}
+$$
+第三个极点就是：
+
+$$
+p_3 \approx \frac{1}{R_C C_{p1}}
+$$
+00
 
 
 
