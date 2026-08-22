@@ -414,11 +414,12 @@ $$
 
 ![](./assets/7eb2a395b67369fb5a24697f57efb862.jpg)
 
-求得T未化简：
+求得T未化简：**==这里忘了ro1了明天加上==**
 
 $$
 T = \frac{g_{mL}R_{L} \frac{C_{m1}}{C_{m1} + C_{p1}}}{1 + s[R_L C_L + (R_L + R_C)\frac{C_{m1}C_{p1}}{C_{m1} + C_{p1}}]  + s^2R_L R_C C_L \frac{C_{m1}C_{p1}}{C_{m1} + C_{p1}}} 
 $$
+
 又 $C_{m1} \gg C_{p1}$  化简得:
 
 $$
