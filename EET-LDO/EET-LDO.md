@@ -417,7 +417,7 @@ $$
 求得T未化简：
 
 $$
-T = \frac{g_{mL}R_{L} \frac{c_{m1}}{C_{m1} + C_{p1}}}{1 + s[R_L C_L + (R_L + R_C)\frac{C_{m1}C_{p1}}{C_{m1} + C_{p1}}]  + s^2R_L R_C C_L \frac{C_{m1}C_{p1}}{C_{m1} + C_{p1}}} 
+T = \frac{g_{mL}R_{L} \frac{C_{m1}}{C_{m1} + C_{p1}}}{1 + s[R_L C_L + (R_L + R_C)\frac{C_{m1}C_{p1}}{C_{m1} + C_{p1}}]  + s^2R_L R_C C_L \frac{C_{m1}C_{p1}}{C_{m1} + C_{p1}}} 
 $$
 又 $C_{m1} \gg C_{p1}$  化简得:
 
