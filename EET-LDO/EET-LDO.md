@@ -390,8 +390,21 @@ cadence 中仿真：
 相位裕度：第一个极点的相移是90°，然后就是T引入的p2的相移：
 
 $$
-PM = 90^{\circ} - \tan^{-1}{\frac{GBW}{p_2}}
+PM' = 90^{\circ} - \tan^{-1}{\frac{GBW}{p_2}}
 $$
+再次引入零点的相移：(文中给出的办法是独立评估零点，好像不可取)
+
+$$
+PM = 90^{\circ} - \tan^{-1}{\frac{GBW}{p_2}} - \tan^{-1}{\frac{g_{m1}}{g_{mL}}}
+$$
+
+当 $g_{mL} \gg g_{m1}$ 的时候零点是可以忽略的
+
+
+### 3.2 Simple Miller Compensation with Nulling Resistor  (SSMCNR)
+
+
+
 
 
 
