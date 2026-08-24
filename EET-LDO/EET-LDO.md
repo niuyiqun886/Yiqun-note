@@ -474,7 +474,7 @@ $$
 再次化简：
 
 $$
-H(s)=g_{m1}g_{mL}r_{o1}R_L\cdot \frac{1-sC_{m1}(\dfrac{1}{g_{mL}}-R_C)} {1+sC_{m1}g_{mL}r_{o1}R_L+s^{2}r_{o1}R_L(C_{p1}C_L+C_{m1}C_{p1}+C_{m1}C_L)+r_{o1}R_LR_CC_{p1}C_LC_{m1}s^{3}} 
+H(s)=g_{m1}g_{mL}r_{o1}R_L\cdot \frac{1-sC_{m1}(\dfrac{1}{g_{mL}}-R_C)} {1+sC_{m1}g_{mL}r_{o1}R_L+s^{2}r_{o1}R_L(C_{p1}C_L+C_{m1}C_{p1}+C_{m1}C_L)+s^{3}r_{o1}R_LR_CC_{p1}C_LC_{m1}} 
 $$
 
 
