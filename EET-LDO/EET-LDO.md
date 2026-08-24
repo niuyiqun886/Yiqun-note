@@ -458,7 +458,7 @@ $$
 第四步带入公式：
 
 $$
-H(s) = A_{\infty} \cdot \frac{1+\frac{1}{T_n}}{1 + \frac{1}{T}} = g_{m1}(R_{C} + \frac{1}{sC_{m1}}) \cdot \frac{1 + \frac{1}{-g_{mL} \cdot (R_C + \frac{1}{sC_{m1}})}}{1 + \frac{1}{\frac{g_{mL}R_{L} \frac{c_{m1}}{C_{m1} + C_{p1}}}{1 + s[R_L C_L + (R_L + R_C)\frac{C_{m1}C_{p1}}{C_{m1} + C_{p1}}]  + s^2R_L R_C C_L \frac{C_{m1}C_{p1}}{C_{m1} + C_{p1}}} }}
+H(s) = A_{\infty} \cdot \frac{1+\frac{1}{T_n}}{1 + \frac{1}{T}} = g_{m1}(R_{C} + \frac{1}{sC_{m1}}) \cdot \frac{1 + \frac{1}{-g_{mL} \cdot (R_C + \frac{1}{sC_{m1}})}}{1 + \frac{1}{\frac{s g_{mL} r_{o1} R_L C_{m1}}{1 + s[C_{m1}(r_{o1} + R_L + R_C) + r_{o1} C_{p1} + R_L + C_L] + s^2[r_{o1}R_L(C_{p1} C_L + C_{m1}C_{p1} + C_{m1}C_L) + R_C C_{m1}(r_{o1}C_{p1} + R_LC_L)] + s^3r_{o1}R_L R_C C_{p1}C_L C_{m1}}}}
 $$
 
 
