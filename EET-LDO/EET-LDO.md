@@ -478,7 +478,7 @@ H(s)=g_{m1}g_{mL}r_{o1}R_L\cdot \frac{1-sC_{m1}(\dfrac{1}{g_{mL}}-R_C)} {1+sC_{m
 $$
 
 
-
+![](./assets/a39d574c-8184-42f5-89c6-ef603140f012.png)
 
 
 
