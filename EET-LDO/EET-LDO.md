@@ -467,13 +467,14 @@ $$
 $$ 
 H(s)=g_{m1}g_{mL}r_{o1}R_L\cdot \frac{1-sC_{m1}\left(\dfrac{1}{g_{mL}}-R_C\right)} {1+a_1s+a_2s^{2}+a_3s^{3}} 
 $$ $$
-\begin{aligned} a_1&=C_{m1}\left(g_{mL}r_{o1}R_L+r_{o1}+R_L+R_C\right)+r_{o1}C_{p1}+R_LC_L\\[4pt] a_2&=r_{o1}R_L\left(C_{p1}C_L+C_{m1}C_{p1}+C_{m1}C_L\right)+R_CC_{m1}\left(r_{o1}C_{p1}+R_LC_L\right)\\[4pt] a_3&=r_{o1}R_LR_CC_{p1}C_LC_{m1} 
+\begin{aligned} a_1&=C_{m1}\left(g_{mL}r_{o1}R_L+r_{o1}+R_L+R_C\right)+r_{o1}C_{p1}+R_LC_L\\[4pt] a_2&=r_{o1}R_L\left(C_{p1}C_L+C_{m1}C_{p1}+C_{m1}C_L\right)+R_CC_{m1}\left(r_{o1}C_{p1}+R_LC_L\right)\\[4pt] 
+a_3&=r_{o1}R_LR_CC_{p1}C_LC_{m1} 
 \end{aligned} 
 $$
 再次化简：
 
 $$
-H(s)=g_{m1}g_{mL}r_{o1}R_L\cdot \frac{1-sC_{m1}\left(\dfrac{1}{g_{mL}}-R_C\right)} {1+sC_{m1}g_{mL}r_{o1}R_L+r_{o1}R_L\left(C_{p1}C_L+C_{m1}C_{p1}+C_{m1}C_L\right)+a_3s^{3}} 
+H(s)=g_{m1}g_{mL}r_{o1}R_L\cdot \frac{1-sC_{m1}(\dfrac{1}{g_{mL}}-R_C)} {1+sC_{m1}g_{mL}r_{o1}R_L+s^{2}r_{o1}R_L(C_{p1}C_L+C_{m1}C_{p1}+C_{m1}C_L)+r_{o1}R_LR_CC_{p1}C_LC_{m1}s^{3}} 
 $$
 
 
