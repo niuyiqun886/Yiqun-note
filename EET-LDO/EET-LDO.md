@@ -414,6 +414,7 @@ $$
 
 ![](./assets/7eb2a395b67369fb5a24697f57efb862.jpg)
 
+
 求得T未化简：**==这里忘了ro1了明天加上==**
 
 $$
@@ -436,6 +437,15 @@ $$
 $$
 p_3 \approx \frac{1}{R_C C_{p1}}
 $$
+
+![](./assets/image-53.png)
+
+这个是完整的T的公式：引入ro1
+
+$$
+T(s) = \frac{s g_{mL} r_{o1} R_L C_{m1}}{1 + s[C_{m1}(r_{o1} + R_L + R_C) + r_{o1} C_{p1} + R_L + C_L] + s^2[r_{o1}R_L(C_{p1} C_L + C_{m1}C_{p1} + C_{m1}C_L) + R_C C_{m1}(r_{o1}C_{p1} + R_LC_L)] + s^3r_{o1}R_L R_C C_{p1}C_L C_{m1}}
+$$
+
 
 第三步 $T_n$ ：
 
