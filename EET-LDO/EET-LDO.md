@@ -343,8 +343,12 @@ $$
 > 渐近增益模型的完整形式是 $A=A_\infty\dfrac{T}{1+T}+A_0\dfrac{1}{1+T}$。第二项（把受控源 $g_{mL}$ 置零后经 $C_{m1}$ 的直通路径）被省略了，而 RHP 零点恰恰藏在 $A_0$ 里。
 > 分析极点分裂与相位裕度的主体部分用上式没问题；但讨论 **SMCNR（调零电阻）** 时必须把 $A_0$ 项补回来——那正是调零电阻要对付的东西。
 
+### ==**第五步：高频等效模型：**==
 
-### **==第五步：建模仿真==**
+![](./assets/e1a271f07b41290e92316a435bf84cb5.jpg)
+
+
+### **==第六步：建模仿真==**
 cadence 中仿真：
 原理图：
 
@@ -403,19 +407,20 @@ $$
 
 ### 3.2 Simple Miller Compensation with Nulling Resistor  (SSMCNR)
 
-第一步： $A_{\infty}$  
+#### 第一步： $A_{\infty}$  
 
 ![](./assets/58335feb56d7ca244c1092bbebd31ac1.jpg)
 
 $$
 \frac{V_{out}-0}{R_{C} + \frac{1}{sC_{m1}}} = g_{m1} V_{in} \Rightarrow A_{\infty} = \frac{V_{out}}{V_{in}} = g_{m1}(R_{C} + \frac{1}{sC_{m1}})
 $$
-第二步：T 
+
+#### 第二步：T 
 
 ![](./assets/7eb2a395b67369fb5a24697f57efb862.jpg)
 
 
-求得T未化简：**==这里忘了ro1了明天加上==**
+求得T未化简：
 
 $$
 T = \frac{g_{mL}R_{L} \frac{C_{m1}}{C_{m1} + C_{p1}}}{1 + s[R_L C_L + (R_L + R_C)\frac{C_{m1}C_{p1}}{C_{m1} + C_{p1}}]  + s^2R_L R_C C_L \frac{C_{m1}C_{p1}}{C_{m1} + C_{p1}}} 
@@ -447,7 +452,7 @@ T(s) = \frac{s g_{mL} r_{o1} R_L C_{m1}}{1 + s[C_{m1}(r_{o1} + R_LC_L) + r_{o1} 
 $$
 
 
-第三步 $T_n$ ：
+#### 第三步 $T_n$ ：
 
 ![](./assets/c8f990ff0e2225143d217a61e5d2972d.jpg)
 
@@ -455,7 +460,7 @@ $$
 T_n = -g_{mL} \cdot (R_C + \frac{1}{sC_{m1}})
 $$
 
-第四步带入公式：
+#### 第四步带入公式：
 
 $$
 H(s) = A_{\infty} \cdot \frac{1+\frac{1}{T_n}}{1 + \frac{1}{T}} = g_{m1}(R_{C} + \frac{1}{sC_{m1}}) \cdot \frac{1 + \frac{1}{-g_{mL} \cdot (R_C + \frac{1}{sC_{m1}})}}{1 + \frac{1}{\frac{s g_{mL} r_{o1} R_L C_{m1}}{1 + s[C_{m1}(r_{o1} + R_L + R_C) + r_{o1} C_{p1} + R_L + C_L] + s^2[r_{o1}R_L(C_{p1} C_L + C_{m1}C_{p1} + C_{m1}C_L) + R_C C_{m1}(r_{o1}C_{p1} + R_LC_L)] + s^3r_{o1}R_L R_C C_{p1}C_L C_{m1}}}}
@@ -518,7 +523,7 @@ R_C = \frac{C_L + C_{m1}}{g_{mL}C_{m1}}
 $$
 这个结果就不能再化简了。
 
-
+#### 第五步高频模型：
 
 
 
