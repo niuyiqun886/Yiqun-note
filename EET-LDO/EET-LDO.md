@@ -430,12 +430,12 @@ $$
 当评率较高的时候 $sR_L C_L \gg 1$  化简:
 
 $$
-T = \frac{g_{mL}}{C_L} \cdot \frac{1}{1 + sR_LC_{p1}}  \Rightarrow H \cdot \frac{1}{1 + sR_LC_{p1}}
+T = \frac{g_{mL}}{C_L} \cdot \frac{1}{1 + sR_LC_{p1}}  \Rightarrow H \cdot \frac{1}{1 + sR_LC_{p1}}----(3-7)
 $$
 第三个极点就是：
 
 $$
-p_3 \approx \frac{1}{R_C C_{p1}}
+p_3 \approx \frac{1}{R_C C_{p1}}----(3-8)
 $$
 
 ![](./assets/image-53.png)
@@ -479,6 +479,31 @@ $$
 
 
 ![](./assets/a39d574c-8184-42f5-89c6-ef603140f012.png)
+
+
+令高频极点和零点抵消：可以得到补偿电容的值
+
+$$
+\begin{gather}
+p_2 \approx \frac{g_{mL}}{C_L} = \frac{1}{(R_C-1/g_{mL}) C_{m1}}  = z \\[4pt]
+R_C = \frac{C_L + C_{m1}}{g_{mL}C_{m1}}
+\end{gather}
+$$
+
+相位裕度：
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
