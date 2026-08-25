@@ -486,11 +486,17 @@ $$
 $$
 \begin{gather}
 p_2 \approx \frac{g_{mL}}{C_L} = \frac{1}{(R_C-1/g_{mL}) C_{m1}}  = z \\[4pt]
-R_C = \frac{C_L + C_{m1}}{g_{mL}C_{m1}}
+R_C = \frac{C_L + C_{m1}}{g_{mL}C_{m1}}----(3-10)
 \end{gather}
 $$
 
-相位裕度：
+相位裕度：第一个极点相移90°，然后第二极点和零点抵消，只剩第三极点相移：
+
+$$
+PM = 90^ \circ - tan^{-1}(\frac{GBW}{1/R_CC_{p1}}) 
+$$
+
+可知相位裕度和第三极点相关，且第三极点的频率天然会很高。
 
 
 
