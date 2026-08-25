@@ -525,9 +525,19 @@ $$
 
 #### 第五步高频模型：
 
+![](./assets/ac1315703d1659a07af43f660bdf2e71.jpg)
 
+高频等效模型的结果： 设计参考
 
+$$
+\begin{gather}
+GBW = \frac{g_{m1}}{sC_m} \\[4pt]
+p_1 = \frac{g_{mL}}{C_c} \\[4pt]
+z = \frac{1}{C_m \cdot (R_c - \frac{1}{g_mL})}
+\end{gather}
+$$
 
+#### 第六步建模仿真：
 
 
 
