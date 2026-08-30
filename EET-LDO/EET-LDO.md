@@ -413,6 +413,7 @@ $$
 
 用文中的等效计算下：
 
+![](./assets/cbcb7be4c8781d74edc4c52e68f09d38.jpg)
 
 #### 第一步： $A_{\infty}$  
 
@@ -556,7 +557,7 @@ $$
 
 ![](./assets/8a1adaaf-83eb-4b78-8f8c-01c0edbc2370.png)
 
-
+#### 第一步： $A_{\infty}$  
 
 
 
