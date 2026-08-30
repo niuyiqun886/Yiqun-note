@@ -423,16 +423,16 @@ $$
 ![](./assets/7eb2a395b67369fb5a24697f57efb862.jpg)
 
 
-求得T未化简：
+求得T未化简： 这个 $T$ 就是 $T_{HF}$ 
 
 $$
 T = \frac{g_{mL}R_{L} \frac{C_{m1}}{C_{m1} + C_{p1}}}{1 + s[R_L C_L + (R_L + R_C)\frac{C_{m1}C_{p1}}{C_{m1} + C_{p1}}]  + s^2R_L R_C C_L \frac{C_{m1}C_{p1}}{C_{m1} + C_{p1}}} 
 $$
 
-又 $C_{m1} \gg C_{p1}$  化简得:
+又 $C_{m1} \gg C_{p1}$  化简得:  $T_{HF}$
 
 $$
-T = \frac{g_{mL}R_L}{1 + sR_L C_L} \cdot \frac{1}{1+sR_LC_{p1}} 
+T = T_{HF} = \frac{g_{mL}R_L}{1 + sR_L C_L} \cdot \frac{1}{1+sR_LC_{p1}} 
 $$
 
 当评率较高的时候 $sR_L C_L \gg 1$  化简:
@@ -550,7 +550,7 @@ $$
 
 ### 3.3 Simple Miller Compensation with Current Buffer (SMCCB)
 
-
+![](./assets/8a1adaaf-83eb-4b78-8f8c-01c0edbc2370.png)
 
 
 
