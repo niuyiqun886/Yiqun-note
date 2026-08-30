@@ -408,7 +408,11 @@ $$
 ### 3.2 Simple Miller Compensation with Nulling Resistor  (SSMCNR)
 
 
+
 ![](./assets/a7d94e3c-e824-4af9-a76c-eeb2359f03fe.png)
+
+用文中的等效计算下：
+
 
 #### 第一步： $A_{\infty}$  
 
