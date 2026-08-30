@@ -407,6 +407,9 @@ $$
 
 ### 3.2 Simple Miller Compensation with Nulling Resistor  (SSMCNR)
 
+
+![](./assets/a7d94e3c-e824-4af9-a76c-eeb2359f03fe.png)
+
 #### 第一步： $A_{\infty}$  
 
 ![](./assets/58335feb56d7ca244c1092bbebd31ac1.jpg)
@@ -437,6 +440,7 @@ $$
 $$
 T = \frac{g_{mL}}{C_L} \cdot \frac{1}{1 + sR_LC_{p1}}  \Rightarrow H \cdot \frac{1}{1 + sR_LC_{p1}}----(3-7)
 $$
+
 第三个极点就是：
 
 $$
@@ -508,6 +512,7 @@ $$
 $$
 C_{m1} \approx g_{m1} R_C C_{p1} \tan(PM) ----(3-12)
 $$
+
 给我的感觉是在推公式，并不是在设计。
 
 将(3-12) 带入 (3-10) 可计算 $R_C$ ：
@@ -521,6 +526,7 @@ $$
 $$
 R_C = \frac{C_L + C_{m1}}{g_{mL}C_{m1}}
 $$
+
 这个结果就不能再化简了。
 
 #### 第五步高频模型：
@@ -532,7 +538,7 @@ $$
 $$
 \begin{gather}
 GBW = \frac{g_{m1}}{sC_m} \\[4pt]
-p_1 = \frac{g_{mL}}{C_c} \\[4pt]
+p_1 = \frac{g_{mL}}{C_L} \\[4pt]
 z = \frac{1}{C_m \cdot (R_c - \frac{1}{g_mL})}
 \end{gather}
 $$
@@ -542,6 +548,7 @@ $$
 
 
 
+### 3.3 Simple Miller Compensation with Current Buffer (SMCCB)
 
 
 
