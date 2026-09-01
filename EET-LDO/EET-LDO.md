@@ -574,9 +574,17 @@ $$
 T= \frac{g_{mL}R_LR_{o1}C_{m1}s}{(1 + sR_{o1}C_{p1})[1 + s(R_L(C_L + C_{m1})+\frac{C_{}m1}{g_{mc}})]+s^2\frac{R_LC_L}{g_{mc}}}
 $$
 
+令 $R_{o1} \to \infty$  验证 $T = T_{HF}$ 
+ 
+![](./assets/27ee21042fe650866405ca95400045e6.jpg)
 
+化简得：T
 
+$$
+T = \frac{g_{mL}R_L}{1+sR_LC_L} \cdot \frac{C_{m1}}{C_{p1}} \frac{1}{1 + s\frac{c_{m1}}{C_{p1}}}
+$$
 
+第三步： $T_n$ 
 
 
 
