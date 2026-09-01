@@ -585,12 +585,19 @@ $$
 T = \frac{g_{mL}R_L}{1+sR_LC_L} \cdot \frac{C_{m1}}{C_{p1}} \frac{1}{1 + s\frac{C_{m1}}{g_{mc}}}
 $$
 
-第三步： $T_n$ 
+#### 第三步： $T_n$ 
 
+![](./assets/c973f8c7bd7c5bcc2e92fa34aeed1095.jpg)
 
+$$
+T_{n} = \infty
+$$
 
+第四步：求完整的传递函数：
 
-
+$$
+H(s) = A_{\infty} \cdot \frac{1+\frac{1}{T_n}}{1 + \frac{1}{T}}  = 
+$$
 
 
 
