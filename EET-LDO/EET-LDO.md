@@ -567,9 +567,12 @@ $$
 
 #### 第二步：T
 
+![](./assets/38a95d1bc6e692a8c8dbaef36e8c6ca9.jpg)
 
-
-
+这里是完整的T，没化简也没省略任何东西
+$$
+T= \frac{g_{mL}R_LR_{o1}C_{m1}s}{(1 + sR_{o1}C_{p1})[1 + s(R_L(C_L + C_{m1})+\frac{C_{}m1}{g_{mc}})]+s^2\frac{R_LC_L}{g_{mc}}}
+$$
 
 
 
