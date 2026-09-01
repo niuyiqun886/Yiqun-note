@@ -559,11 +559,13 @@ $$
 
 #### 第一步： $A_{\infty}$  
 
+![](./assets/6d626de04a138a10d1652707c2261fbe.jpg)
 
+$$
+A_{\infty} = \frac{V_o}{V_{in}} = -g_{m1}(\frac{1}{g_{mc}} + \frac{1}{sC_{m1}})
+$$
 
-
-
-
+#### 第二步：T
 
 
 
