@@ -593,15 +593,28 @@ $$
 T_{n} = \infty
 $$
 
-第四步：求完整的传递函数：
+#### 第四步：求完整的传递函数：
 
 $$
-H(s) = A_{\infty} \cdot \frac{1+\frac{1}{T_n}}{1 + \frac{1}{T}}  = 
+\begin{gather}
+H(s) = \frac{-g_{m1}g_{mL}R_{o1}R_{L}\left(1+\dfrac{sC_{m1}}{g_{mc}}\right)} {1+a_{1}s+a_{2}s^{2}+a_{3}s^{3}} \\[4pt]
+a_{1} = g_{mL}R_{o1}R_{L}C_{m1}+R_{L}(C_{L}+C_{m1})+\frac{C_{m1}}{g_{mc}}+R_{o1}C_{p1} \\[4pt]
+a_{2} = R_{o1}C_{p1}R_{L}(C_{L}+C_{m1})+\frac{C_{m1}\left(R_{L}C_{L}+R_{o1}C_{p1}\right)}{g_{mc}} \\[4pt]
+a_{3} = \frac{R_{o1}C_{p1}R_{L}C_{L}C_{m1}}{g_{mc}}
+\end{gather}
+$$
+
+$$
+\begin{align}
+H(s) &= A_{\infty} \cdot \frac{1+\frac{1}{T_n}}{1 + \frac{1}{T}}  \\[8pt]
+&= \frac{-g_{m1}g_{mL}R_{o1}R_{L}\left(1+\dfrac{sC_{m1}}{g_{mc}}\right)} {1+\left[g_{mL}R_{o1}R_{L}C_{m1}+R_{L}(C_{L}+C_{m1})+\dfrac{C_{m1}}{g_{mc}}+R_{o1}C_{p1}\right]s +\left[R_{o1}C_{p1}R_{L}(C_{L}+C_{m1})+\dfrac{C_{m1}(R_{L}C_{L}+R_{o1}C_{p1})}{g_{mc}}\right]s^{2} +\dfrac{R_{o1}C_{p1}R_{L}C_{L}C_{m1}}{g_{mc}}s^{3}}\\[8pt]
+&= \frac{-g_{m1}g_{mL}R_{o1}R_{L}\left(1+\dfrac{sC_{m1}}{g_{mc}}\right)} {1+s g_{mL}R_{o1}R_{L}C_{m1} + s^{2} R_{o1}C_{p1}R_{L}(C_{L}+C_{m1})+\dfrac{R_{o1}C_{p1}R_{L}C_{L}C_{m1}}{g_{mc}}s^{3}}\\[8pt]
+\end{align}
 $$
 
 
 
-
+#### 第五步高频模型：
 
 
 
