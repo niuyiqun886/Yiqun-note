@@ -593,7 +593,7 @@ $$
 T_{n} = \infty
 $$
 
-#### 第四步：求完整的传递函数：
+#### 第四步：求完整的传递函数： 
 
 $$
 \begin{gather}
@@ -604,6 +604,7 @@ a_{3} = \frac{R_{o1}C_{p1}R_{L}C_{L}C_{m1}}{g_{mc}}
 \end{gather}
 $$
 
+使用没化简的T来计算：再化简
 $$
 \begin{align}
 H(s) &= A_{\infty} \cdot \frac{1+\frac{1}{T_n}}{1 + \frac{1}{T}}  \\[8pt]
@@ -611,6 +612,11 @@ H(s) &= A_{\infty} \cdot \frac{1+\frac{1}{T_n}}{1 + \frac{1}{T}}  \\[8pt]
 &= \frac{-g_{m1}g_{mL}R_{o1}R_{L}\left(1+\dfrac{sC_{m1}}{g_{mc}}\right)} {1+s g_{mL}R_{o1}R_{L}C_{m1} + s^{2} R_{o1}C_{p1}R_{L}(C_{L}+C_{m1})+\dfrac{R_{o1}C_{p1}R_{L}C_{L}C_{m1}}{g_{mc}}s^{3}}\\[8pt]
 \end{align}
 $$
+
+
+
+使用化简的T(论文中的)：
+
 
 
 
