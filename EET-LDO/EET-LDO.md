@@ -630,10 +630,9 @@ $$
 
 ![](./assets/8b85260e31bbdeccf09b14d2b8348b0c.jpg)
 
+可能存在共轭极点：
 
-
-
-
+![](./assets/47d12a3900b5f94dc4e05d6ba3f896e2.jpg)
 
 
 
