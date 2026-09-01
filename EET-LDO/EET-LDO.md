@@ -581,7 +581,7 @@ $$
 化简得：T
 
 $$
-T = \frac{g_{mL}R_L}{1+sR_LC_L} \cdot \frac{C_{m1}}{C_{p1}} \frac{1}{1 + s\frac{c_{m1}}{C_{p1}}}
+T = \frac{g_{mL}R_L}{1+sR_LC_L} \cdot \frac{C_{m1}}{C_{p1}} \frac{1}{1 + s\frac{C_{m1}}{g_{mc}}}
 $$
 
 第三步： $T_n$ 
