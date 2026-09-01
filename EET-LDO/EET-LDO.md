@@ -617,7 +617,13 @@ $$
 
 使用化简的T(论文中的)：
 
+$$
+H(s) = \frac{-g_{m1}g_{mL}R_{L}\left(1+\dfrac{sC_{m1}}{g_{mc}}\right)} {\left(g_{mL}R_{L}C_{m1}+C_{p1}\right)s +C_{p1}\left(R_{L}C_{L}+\dfrac{C_{m1}}{g_{mc}}\right)s^{2} +\dfrac{C_{p1}R_{L}C_{L}C_{m1}}{g_{mc}}s^{3}}
+$$
 
+$$
+H(s) \approx -\frac{g_{m1}\left(1+\dfrac{sC_{m1}}{g_{mc}}\right)} {sC_{m1}\left(1+\dfrac{sC_{p1}C_{L}}{g_{mL}C_{m1}}+\dfrac{s^{2}C_{p1}C_{L}}{g_{mL}g_{mc}}\right)}
+$$
 
 
 #### 第五步高频模型：
